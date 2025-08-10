@@ -1,17 +1,17 @@
-# 🤖 AI_AGENTS
+# 🥗 AI Health & Diet Planner
 
-An interactive platform for creating and running **AI Agents** using **Python**, **LangChain**, **OpenAI API**, **Gradio**, and **Hugging Face**.  
-This project lets you build, customize, and deploy intelligent agents capable of performing tasks like answering questions, summarizing text, web searching, and more — all from a simple UI.
+An AI-powered **Health & Diet Planner** built with **Python**, **LangChain**, **OpenAI API**, **Gradio**, and **Hugging Face**.  
+This app generates **personalized daily diet plans** and **weekly workout schedules** to help you stay healthy in today’s fast-paced, tech-driven life.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 **Multiple AI Agents** – Choose from different agents for different tasks  
-- 🔗 **LangChain Integration** – Handle prompts, tools, and chains with ease  
-- 💬 **OpenAI API** – Harness GPT models for reasoning and generation  
-- 🌐 **Gradio UI** – Simple, interactive web interface  
-- ☁ **Hugging Face Deployment** – Share your app with the world
+- 🥦 **Personalized Diet Plans** – Based on your age, weight, goals, and preferences  
+- 🏋 **Weekly Workout Planner** – Exercise routines tailored to your fitness level  
+- 🧠 **AI Recommendations** – Backed by OpenAI’s GPT models for smart suggestions  
+- 🌐 **Interactive UI** – Built with Gradio for an easy-to-use web interface  
+- ☁ **Hugging Face Deployment** – Share with others instantly
 
 ---
 
@@ -29,5 +29,5 @@ This project lets you build, customize, and deploy intelligent agents capable of
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/ASHTOW2102/AI_AGENTS.git
-cd AI_AGENTS
+git clone https://github.com/ASHTOW2102/ai-health-planner.git
+cd ai-health-planner
