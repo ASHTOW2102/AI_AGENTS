@@ -1,3 +1,9 @@
+---
+title: myfitplan
+app_file: main.py
+sdk: gradio
+sdk_version: 5.41.1
+---
 # 🥗 AI Health & Diet Planner
 
 An AI-powered **Health & Diet Planner** built with **Python**, **LangChain**, **OpenAI API**, **Gradio**, and **Hugging Face**.  
