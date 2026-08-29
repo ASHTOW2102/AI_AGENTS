@@ -1,0 +1,6 @@
+strands-agents[ollama,openai,anthropic]
+gradio==6.26.0
+spaces
+python-dotenv
+pypdf
+python-docx
