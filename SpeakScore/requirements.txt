@@ -1,0 +1,6 @@
+strands-agents[ollama,openai,anthropic]
+gradio==6.26.0
+spaces
+huggingface_hub
+soundfile
+python-dotenv
