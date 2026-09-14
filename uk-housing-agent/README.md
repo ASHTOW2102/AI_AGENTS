@@ -1,13 +1,4 @@
----
-title: UK Housing & Renting Assistant
-emoji: 🇬🇧
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-python_version: "3.11"
----
-
-# 🇬🇧 UK Housing & Renting Assistant
+UK Housing & Renting Assistant
 
 A Gradio + OpenAI Agents SDK assistant for practical UK housing and renting
 questions. It can search the official GOV.UK Search API and fetch GOV.UK pages
