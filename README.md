@@ -15,6 +15,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SchemaScout](SchemaScout/) | Profiles CSV data and detects schema drift | Yes |
 | [MailSift](MailSift/) | Privately triages email urgency and phishing signals | Yes |
 | [PlanGraph](PlanGraph/) | Finds critical paths and dependency risks in project plans | Yes |
+| [EnvDoctor](EnvDoctor/) | Audits environment configuration without exposing values | Yes |
 
 ## Getting started
 
