@@ -13,6 +13,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [IncidentTriage](IncidentTriage/) | Converts incident reports into secret-safe action plans | Yes |
 | [PromptShield](PromptShield/) | Detects prompt injection and unsafe tool-use requests | Yes |
 | [SchemaScout](SchemaScout/) | Profiles CSV data and detects schema drift | Yes |
+| [MailSift](MailSift/) | Privately triages email urgency and phishing signals | Yes |
 
 ## Getting started
 
