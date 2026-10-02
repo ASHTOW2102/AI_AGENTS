@@ -19,6 +19,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [OpenAPISentry](OpenAPISentry/) | Audits OpenAPI quality and authentication coverage | Yes |
 | [A11yScout](A11yScout/) | Audits static HTML accessibility basics | Yes |
 | [ChangeScribe](ChangeScribe/) | Generates release notes from Conventional Commits | Yes |
+| [LocaleLens](LocaleLens/) | Checks translation catalogs for structural drift | Yes |
 
 ## Getting started
 
