@@ -16,6 +16,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [MailSift](MailSift/) | Privately triages email urgency and phishing signals | Yes |
 | [PlanGraph](PlanGraph/) | Finds critical paths and dependency risks in project plans | Yes |
 | [EnvDoctor](EnvDoctor/) | Audits environment configuration without exposing values | Yes |
+| [OpenAPISentry](OpenAPISentry/) | Audits OpenAPI quality and authentication coverage | Yes |
 
 ## Getting started
 
