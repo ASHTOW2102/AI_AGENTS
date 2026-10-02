@@ -1,35 +1,24 @@
 # 🤖 AI_AGENTS
 
-An interactive platform for creating and running **AI Agents** using **Python**, **LangChain**, **OpenAI API**, **Gradio**, and **Hugging Face**.  
-This project lets you build, customize, and deploy intelligent agents capable of performing tasks like answering questions, summarizing text, web searching, and more — all from a simple UI.
+A growing collection of practical, self-contained AI agents built with Python.
 
----
+## Agent catalog
 
-## 🚀 Features
+| Agent | Purpose | Runs without an API key |
+|---|---|---:|
+| [DocBrief](DocBrief/) | Summarizes uploaded documents | No |
+| [HealthPlanner](HealthPlanner/) | Creates personalized health plans | No |
+| [SpeakScore](SpeakScore/) | Transcribes and scores speaking practice | No |
+| [UK Housing Agent](uk-housing-agent/) | Explains UK housing costs and guidance | Partly |
+| [IncidentTriage](IncidentTriage/) | Converts incident reports into secret-safe action plans | Yes |
 
-- 🧠 **Multiple AI Agents** – Choose from different agents for different tasks  
-- 🔗 **LangChain Integration** – Handle prompts, tools, and chains with ease  
-- 💬 **OpenAI API** – Harness GPT models for reasoning and generation  
-- 🌐 **Gradio UI** – Simple, interactive web interface  
-- ☁ **Hugging Face Deployment** – Share your app with the world
+## Getting started
 
----
+Clone the repository, choose an agent directory, and follow that agent's README.
 
-## 📦 Tech Stack
-
-- **Language:** Python  
-- **Core Framework:** LangChain  
-- **LLM Provider:** OpenAI API  
-- **UI:** Gradio  
-- **Hosting:** Hugging Face Spaces  
-
----
-
-## ⚡ Getting Started
-
-### 1️⃣ Clone this repository
 ```bash
 git clone https://github.com/ASHTOW2102/AI_AGENTS.git
 cd AI_AGENTS
 ```
 
+Each agent keeps its own dependencies and environment example. Never commit a populated `.env` file.
