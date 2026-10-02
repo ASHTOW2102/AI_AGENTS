@@ -11,6 +11,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SpeakScore](SpeakScore/) | Transcribes and scores speaking practice | No |
 | [UK Housing Agent](uk-housing-agent/) | Explains UK housing costs and guidance | Partly |
 | [IncidentTriage](IncidentTriage/) | Converts incident reports into secret-safe action plans | Yes |
+| [PromptShield](PromptShield/) | Detects prompt injection and unsafe tool-use requests | Yes |
 
 ## Getting started
 
