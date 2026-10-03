@@ -1,0 +1,17 @@
+[
+  {
+    "method": "POST",
+    "status": 429,
+    "retry_after_ms": 1000
+  },
+  {
+    "method": "POST",
+    "status": 503,
+    "delay_ms": 100
+  },
+  {
+    "method": "POST",
+    "status": 200,
+    "delay_ms": 50
+  }
+]

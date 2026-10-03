@@ -20,6 +20,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [A11yScout](A11yScout/) | Audits static HTML accessibility basics | Yes |
 | [ChangeScribe](ChangeScribe/) | Generates release notes from Conventional Commits | Yes |
 | [LocaleLens](LocaleLens/) | Checks translation catalogs for structural drift | Yes |
+| [RetryRight](RetryRight/) | Audits HTTP retry traces for resilience and idempotency risks | Yes |
 
 ## Getting started
 
@@ -30,4 +31,4 @@ git clone https://github.com/ASHTOW2102/AI_AGENTS.git
 cd AI_AGENTS
 ```
 
-Each agent keeps its own dependencies and environment example. Never commit a populated `.env` file.
+Each agent keeps its own dependencies and environment example. Never commit a populated .env file.
