@@ -21,6 +21,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ChangeScribe](ChangeScribe/) | Generates release notes from Conventional Commits | Yes |
 | [LocaleLens](LocaleLens/) | Checks translation catalogs for structural drift | Yes |
 | [RetryRight](RetryRight/) | Audits HTTP retry traces for resilience and idempotency risks | Yes |
+| [HookSentry](HookSentry/) | Audits webhook delivery security, replay, and ordering risks | Yes |
 
 ## Getting started
 

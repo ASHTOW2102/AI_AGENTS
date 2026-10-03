@@ -1,0 +1,24 @@
+[
+  {
+    "delivery_id": "del-100",
+    "event_id": "payment-42",
+    "sent_at": "2026-10-03T09:00:00Z",
+    "received_at": "2026-10-03T09:00:02Z",
+    "signature_valid": true,
+    "processed": true,
+    "http_status": 204,
+    "aggregate_key": "invoice-9",
+    "sequence": 2
+  },
+  {
+    "delivery_id": "del-101",
+    "event_id": "payment-42",
+    "sent_at": "2026-10-03T09:01:00Z",
+    "received_at": "2026-10-03T09:01:01Z",
+    "signature_valid": true,
+    "processed": true,
+    "http_status": 204,
+    "aggregate_key": "invoice-9",
+    "sequence": 1
+  }
+]
