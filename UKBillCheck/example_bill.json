@@ -1,0 +1,13 @@
+{
+  "fuel": "electricity",
+  "period_start": "2026-09-01",
+  "period_end": "2026-10-01",
+  "opening_reading": 12450,
+  "closing_reading": 12550,
+  "reading_type": "actual",
+  "unit_rate_pence": 25,
+  "standing_charge_pence_per_day": 50,
+  "vat_percent": 5,
+  "reported_subtotal_pounds": 40,
+  "reported_total_pounds": 42
+}
