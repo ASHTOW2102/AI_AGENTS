@@ -23,6 +23,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [RetryRight](RetryRight/) | Audits HTTP retry traces for resilience and idempotency risks | Yes |
 | [HookSentry](HookSentry/) | Audits webhook delivery security, replay, and ordering risks | Yes |
 | [ADRGuard](ADRGuard/) | Audits architecture decision records for completeness and lifecycle hygiene | Yes |
+| [CoverageCompass](CoverageCompass/) | Prioritizes risky test gaps from coverage.py JSON | Yes |
 
 ## Getting started
 

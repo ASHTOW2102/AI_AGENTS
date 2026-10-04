@@ -1,0 +1,24 @@
+{
+  "meta": {"format": 3},
+  "files": {
+    "src/payments.py": {
+      "summary": {
+        "covered_lines": 0,
+        "missing_lines": 84,
+        "excluded_lines": 0,
+        "missing_branches": 14,
+        "percent_covered": 0
+      }
+    },
+    "src/users.py": {
+      "summary": {
+        "covered_lines": 82,
+        "missing_lines": 18,
+        "excluded_lines": 2,
+        "missing_branches": 3,
+        "percent_covered": 82
+      }
+    }
+  },
+  "totals": {"percent_covered": 46.2}
+}
