@@ -27,6 +27,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [UKBillCheck](UKBillCheck/) | Recalculates UK household energy bills and flags mismatches | Yes |
 | [MeetingPulse](MeetingPulse/) | Audits meeting participation, decisions, and action ownership | Yes |
 | [BackupBeacon](BackupBeacon/) | Audits backup freshness, protection, and restore-test evidence | Yes |
+| [CacheGuard](CacheGuard/) | Audits HTTP response caching for privacy and correctness risks | Yes |
 
 ## Getting started
 
