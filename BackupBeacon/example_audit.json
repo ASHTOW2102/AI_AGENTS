@@ -1,0 +1,26 @@
+{
+  "evaluated_at": "2026-10-05T12:00:00Z",
+  "policy": {
+    "rpo_hours": 24,
+    "restore_test_max_age_days": 30,
+    "require_encryption": true,
+    "require_offsite": true,
+    "require_immutable": true
+  },
+  "backups": [
+    {
+      "completed_at": "2026-10-05T06:00:00Z",
+      "status": "success",
+      "bytes": 5242880,
+      "encrypted": true,
+      "offsite": true,
+      "immutable": true
+    }
+  ],
+  "restore_tests": [
+    {
+      "completed_at": "2026-09-20T12:00:00Z",
+      "status": "success"
+    }
+  ]
+}

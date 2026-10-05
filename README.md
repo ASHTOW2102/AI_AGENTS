@@ -26,6 +26,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CoverageCompass](CoverageCompass/) | Prioritizes risky test gaps from coverage.py JSON | Yes |
 | [UKBillCheck](UKBillCheck/) | Recalculates UK household energy bills and flags mismatches | Yes |
 | [MeetingPulse](MeetingPulse/) | Audits meeting participation, decisions, and action ownership | Yes |
+| [BackupBeacon](BackupBeacon/) | Audits backup freshness, protection, and restore-test evidence | Yes |
 
 ## Getting started
 
