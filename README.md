@@ -25,6 +25,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ADRGuard](ADRGuard/) | Audits architecture decision records for completeness and lifecycle hygiene | Yes |
 | [CoverageCompass](CoverageCompass/) | Prioritizes risky test gaps from coverage.py JSON | Yes |
 | [UKBillCheck](UKBillCheck/) | Recalculates UK household energy bills and flags mismatches | Yes |
+| [MeetingPulse](MeetingPulse/) | Audits meeting participation, decisions, and action ownership | Yes |
 
 ## Getting started
 

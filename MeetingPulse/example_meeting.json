@@ -1,0 +1,21 @@
+{
+  "participants": ["Asha", "Ben", "Cara"],
+  "turns": [
+    {
+      "speaker": "Asha",
+      "text": "We agreed to pilot the new onboarding flow with one team."
+    },
+    {
+      "speaker": "Ben",
+      "text": "I can prepare the pilot checklist and success measures."
+    }
+  ],
+  "decisions": ["Pilot the onboarding flow with one team."],
+  "actions": [
+    {
+      "task": "Prepare pilot checklist",
+      "owner": "Ben",
+      "due_date": "2026-10-09"
+    }
+  ]
+}
