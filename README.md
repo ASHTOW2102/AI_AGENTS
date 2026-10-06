@@ -37,6 +37,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SLAWatch](SLAWatch/) | Audits support tickets for SLA and ownership risks | Yes |
 | [ConfigDiff](ConfigDiff/) | Finds risky drift between baseline and current configuration | Yes |
 | [CertWatch](CertWatch/) | Audits TLS certificate inventory before outages occur | Yes |
+| [CostPulse](CostPulse/) | Audits cloud cost snapshots for budget and tagging risks | Yes |
 
 ## Getting started
 

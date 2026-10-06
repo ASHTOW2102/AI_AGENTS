@@ -1,0 +1,16 @@
+[
+  {
+    "name": "compute",
+    "cost_today": 80,
+    "cost_yesterday": 75,
+    "daily_budget": 100,
+    "untagged_cost": 0
+  },
+  {
+    "name": "database",
+    "cost_today": 240,
+    "cost_yesterday": 100,
+    "daily_budget": 150,
+    "untagged_cost": 40
+  }
+]
