@@ -33,6 +33,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [PIIGuard](PIIGuard/) | Detects and masks likely personal data before files are shared | Yes |
 | [LogSentry](LogSentry/) | Audits structured application logs for operational warning signals | Yes |
 | [CookieCheck](CookieCheck/) | Audits web cookie settings for common security weaknesses | Yes |
+| [QueueWatch](QueueWatch/) | Audits message queues for backlog and consumer risks | Yes |
 
 ## Getting started
 
