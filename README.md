@@ -29,6 +29,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [BackupBeacon](BackupBeacon/) | Audits backup freshness, protection, and restore-test evidence | Yes |
 | [CacheGuard](CacheGuard/) | Audits HTTP response caching for privacy and correctness risks | Yes |
 | [FlagDoctor](FlagDoctor/) | Audits feature-flag ownership, expiry, rollout, and cleanup hygiene | Yes |
+| [CronGuard](CronGuard/) | Audits scheduled jobs for overlap, retry, and collision risks | Yes |
 
 ## Getting started
 

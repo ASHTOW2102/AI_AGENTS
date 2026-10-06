@@ -1,0 +1,26 @@
+[
+  {
+    "name": "nightly-report",
+    "enabled": true,
+    "interval_minutes": 1440,
+    "offset_minutes": 60,
+    "timezone": "Europe/London",
+    "expected_duration_minutes": 15,
+    "timeout_minutes": 30,
+    "max_retries": 2,
+    "retry_delay_minutes": 10,
+    "singleton": true
+  },
+  {
+    "name": "cache-refresh",
+    "enabled": true,
+    "interval_minutes": 15,
+    "offset_minutes": 0,
+    "timezone": "UTC",
+    "expected_duration_minutes": 2,
+    "timeout_minutes": 5,
+    "max_retries": 1,
+    "retry_delay_minutes": 2,
+    "singleton": false
+  }
+]
