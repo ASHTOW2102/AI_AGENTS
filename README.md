@@ -36,6 +36,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [QueueWatch](QueueWatch/) | Audits message queues for backlog and consumer risks | Yes |
 | [SLAWatch](SLAWatch/) | Audits support tickets for SLA and ownership risks | Yes |
 | [ConfigDiff](ConfigDiff/) | Finds risky drift between baseline and current configuration | Yes |
+| [CertWatch](CertWatch/) | Audits TLS certificate inventory before outages occur | Yes |
 
 ## Getting started
 
