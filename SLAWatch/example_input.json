@@ -1,0 +1,20 @@
+[
+  {
+    "id": "T-100",
+    "status": "open",
+    "priority": "high",
+    "owner": "sam",
+    "age_minutes": 20,
+    "last_update_minutes": 5,
+    "response_sla_minutes": 60
+  },
+  {
+    "id": "T-101",
+    "status": "open",
+    "priority": "urgent",
+    "owner": "",
+    "age_minutes": 180,
+    "last_update_minutes": 180,
+    "response_sla_minutes": 30
+  }
+]

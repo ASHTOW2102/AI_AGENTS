@@ -34,6 +34,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LogSentry](LogSentry/) | Audits structured application logs for operational warning signals | Yes |
 | [CookieCheck](CookieCheck/) | Audits web cookie settings for common security weaknesses | Yes |
 | [QueueWatch](QueueWatch/) | Audits message queues for backlog and consumer risks | Yes |
+| [SLAWatch](SLAWatch/) | Audits support tickets for SLA and ownership risks | Yes |
 
 ## Getting started
 
