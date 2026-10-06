@@ -1,0 +1,25 @@
+{
+  "evaluated_at": "2026-10-06",
+  "flags": [
+    {
+      "key": "checkout-v2",
+      "type": "release",
+      "state": "enabled",
+      "owner": "checkout-team",
+      "created_at": "2026-09-20",
+      "expires_at": "2026-10-20",
+      "rollout_percentage": 25,
+      "environments": ["production"]
+    },
+    {
+      "key": "old-search",
+      "type": "release",
+      "state": "disabled",
+      "owner": "search-team",
+      "created_at": "2026-07-01",
+      "expires_at": "2026-08-01",
+      "rollout_percentage": 0,
+      "environments": []
+    }
+  ]
+}

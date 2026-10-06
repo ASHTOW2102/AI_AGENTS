@@ -28,6 +28,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [MeetingPulse](MeetingPulse/) | Audits meeting participation, decisions, and action ownership | Yes |
 | [BackupBeacon](BackupBeacon/) | Audits backup freshness, protection, and restore-test evidence | Yes |
 | [CacheGuard](CacheGuard/) | Audits HTTP response caching for privacy and correctness risks | Yes |
+| [FlagDoctor](FlagDoctor/) | Audits feature-flag ownership, expiry, rollout, and cleanup hygiene | Yes |
 
 ## Getting started
 
