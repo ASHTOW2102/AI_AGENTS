@@ -1,0 +1,18 @@
+[
+  {
+    "name": "session",
+    "secure": true,
+    "http_only": true,
+    "same_site": "Lax",
+    "max_age_seconds": 3600,
+    "domain": "app.example.com"
+  },
+  {
+    "name": "prefs",
+    "secure": false,
+    "http_only": false,
+    "same_site": "None",
+    "max_age_seconds": 99999999,
+    "domain": ".example.com"
+  }
+]

@@ -32,6 +32,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CronGuard](CronGuard/) | Audits scheduled jobs for overlap, retry, and collision risks | Yes |
 | [PIIGuard](PIIGuard/) | Detects and masks likely personal data before files are shared | Yes |
 | [LogSentry](LogSentry/) | Audits structured application logs for operational warning signals | Yes |
+| [CookieCheck](CookieCheck/) | Audits web cookie settings for common security weaknesses | Yes |
 
 ## Getting started
 
