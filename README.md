@@ -31,6 +31,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [FlagDoctor](FlagDoctor/) | Audits feature-flag ownership, expiry, rollout, and cleanup hygiene | Yes |
 | [CronGuard](CronGuard/) | Audits scheduled jobs for overlap, retry, and collision risks | Yes |
 | [PIIGuard](PIIGuard/) | Detects and masks likely personal data before files are shared | Yes |
+| [LogSentry](LogSentry/) | Audits structured application logs for operational warning signals | Yes |
 
 ## Getting started
 
