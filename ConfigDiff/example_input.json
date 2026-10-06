@@ -1,0 +1,13 @@
+{
+  "baseline": {
+    "debug": false,
+    "tls_required": true,
+    "region": "uk"
+  },
+  "current": {
+    "debug": true,
+    "tls_required": true,
+    "region": "uk",
+    "temporary_override": true
+  }
+}
