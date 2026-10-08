@@ -1,0 +1,28 @@
+[
+  {
+    "name": "newsletter",
+    "method": "POST",
+    "action": "https://example.com/signup",
+    "csrf": true,
+    "fields": [
+      {
+        "name": "email",
+        "type": "email",
+        "autocomplete": "email"
+      }
+    ]
+  },
+  {
+    "name": "login",
+    "method": "GET",
+    "action": "http://example.com/login",
+    "csrf": false,
+    "fields": [
+      {
+        "name": "password",
+        "type": "password",
+        "autocomplete": "on"
+      }
+    ]
+  }
+]\n
