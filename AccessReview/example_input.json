@@ -1,0 +1,16 @@
+[
+  {
+    "user": "alex",
+    "role": "viewer",
+    "inactive_days": 5,
+    "owner": "analytics",
+    "reviewed_days_ago": 20
+  },
+  {
+    "user": "old-admin",
+    "role": "admin",
+    "inactive_days": 180,
+    "owner": "",
+    "reviewed_days_ago": null
+  }
+]\n
