@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "support-tickets",
+    "retention_days": 365,
+    "legal_basis": "contract",
+    "deletion_method": "hard-delete",
+    "owner": "support"
+  },
+  {
+    "dataset": "debug-logs",
+    "retention_days": null,
+    "legal_basis": "",
+    "deletion_method": "",
+    "owner": ""
+  }
+]\n

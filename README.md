@@ -42,6 +42,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [RedirectRadar](RedirectRadar/) | Finds unsafe or inefficient HTTP redirect chains | Yes |
 | [FormGuard](FormGuard/) | Audits web form definitions for privacy and security risks | Yes |
 | [SecretLease](SecretLease/) | Audits secret inventories for rotation and ownership risks | Yes |
+| [RetentionCheck](RetentionCheck/) | Audits data-retention rules for privacy and deletion gaps | Yes |
 
 ## Getting started
 
