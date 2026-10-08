@@ -1,0 +1,16 @@
+[
+  {
+    "endpoint": "/login",
+    "requests": 10,
+    "window_seconds": 60,
+    "burst": 3,
+    "per_client": true
+  },
+  {
+    "endpoint": "/search",
+    "requests": null,
+    "window_seconds": 60,
+    "burst": 500,
+    "per_client": false
+  }
+]\n

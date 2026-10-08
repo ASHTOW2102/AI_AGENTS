@@ -43,6 +43,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [FormGuard](FormGuard/) | Audits web form definitions for privacy and security risks | Yes |
 | [SecretLease](SecretLease/) | Audits secret inventories for rotation and ownership risks | Yes |
 | [RetentionCheck](RetentionCheck/) | Audits data-retention rules for privacy and deletion gaps | Yes |
+| [QuotaSentry](QuotaSentry/) | Audits API quotas and rate-limit configurations | Yes |
 
 ## Getting started
 
