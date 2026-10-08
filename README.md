@@ -39,6 +39,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CertWatch](CertWatch/) | Audits TLS certificate inventory before outages occur | Yes |
 | [CostPulse](CostPulse/) | Audits cloud cost snapshots for budget and tagging risks | Yes |
 | [HeaderHawk](HeaderHawk/) | Audits HTTP security headers and browser protections | Yes |
+| [RedirectRadar](RedirectRadar/) | Finds unsafe or inefficient HTTP redirect chains | Yes |
 
 ## Getting started
 

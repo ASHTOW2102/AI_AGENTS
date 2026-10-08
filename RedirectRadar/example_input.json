@@ -1,0 +1,17 @@
+[
+  {
+    "name": "home",
+    "urls": [
+      "https://example.com",
+      "https://www.example.com"
+    ]
+  },
+  {
+    "name": "login",
+    "urls": [
+      "https://example.com/login",
+      "http://example.com/auth",
+      "https://example.com/login"
+    ]
+  }
+]\n
