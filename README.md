@@ -45,6 +45,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [RetentionCheck](RetentionCheck/) | Audits data-retention rules for privacy and deletion gaps | Yes |
 | [QuotaSentry](QuotaSentry/) | Audits API quotas and rate-limit configurations | Yes |
 | [AccessReview](AccessReview/) | Audits user access exports for stale and excessive privileges | Yes |
+| [ReleaseReady](ReleaseReady/) | Audits software releases for rollout and rollback readiness | Yes |
 
 ## Getting started
 

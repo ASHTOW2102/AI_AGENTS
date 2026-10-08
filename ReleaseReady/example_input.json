@@ -1,0 +1,18 @@
+[
+  {
+    "version": "2.4.0",
+    "tests_passed": true,
+    "rollback_plan": true,
+    "monitoring": true,
+    "owner": "platform",
+    "initial_rollout_percent": 10
+  },
+  {
+    "version": "2.5.0",
+    "tests_passed": false,
+    "rollback_plan": false,
+    "monitoring": false,
+    "owner": "",
+    "initial_rollout_percent": 100
+  }
+]\n
