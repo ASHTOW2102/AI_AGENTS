@@ -1,0 +1,19 @@
+[
+  {
+    "url": "https://example.com",
+    "status": 200,
+    "headers": {
+      "strict-transport-security": "max-age=31536000",
+      "content-security-policy": "default-src 'self'",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "strict-origin-when-cross-origin"
+    }
+  },
+  {
+    "url": "https://admin.example.com",
+    "status": 200,
+    "headers": {
+      "access-control-allow-origin": "*"
+    }
+  }
+]\n

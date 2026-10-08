@@ -38,6 +38,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ConfigDiff](ConfigDiff/) | Finds risky drift between baseline and current configuration | Yes |
 | [CertWatch](CertWatch/) | Audits TLS certificate inventory before outages occur | Yes |
 | [CostPulse](CostPulse/) | Audits cloud cost snapshots for budget and tagging risks | Yes |
+| [HeaderHawk](HeaderHawk/) | Audits HTTP security headers and browser protections | Yes |
 
 ## Getting started
 
