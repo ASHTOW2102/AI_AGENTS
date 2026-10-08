@@ -41,6 +41,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [HeaderHawk](HeaderHawk/) | Audits HTTP security headers and browser protections | Yes |
 | [RedirectRadar](RedirectRadar/) | Finds unsafe or inefficient HTTP redirect chains | Yes |
 | [FormGuard](FormGuard/) | Audits web form definitions for privacy and security risks | Yes |
+| [SecretLease](SecretLease/) | Audits secret inventories for rotation and ownership risks | Yes |
 
 ## Getting started
 
