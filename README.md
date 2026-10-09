@@ -50,6 +50,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [InvoiceAudit](InvoiceAudit/) | Recalculates invoices and flags payment-data inconsistencies | Yes |
 | [ConsentLedger](ConsentLedger/) | Audits consent records for evidence and expiry gaps | Yes |
 | [SessionSentry](SessionSentry/) | Audits application session policies for account risks | Yes |
+| [RobotsGuard](RobotsGuard/) | Audits robots.txt rules for accidental exposure and blocking | Yes |
 
 ## Getting started
 

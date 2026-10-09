@@ -1,0 +1,24 @@
+[
+  {
+    "host": "example.com",
+    "disallow": [
+      "/admin"
+    ],
+    "allow": [
+      "/"
+    ],
+    "sitemap": "https://example.com/sitemap.xml",
+    "crawl_delay": 0
+  },
+  {
+    "host": "staging.example.com",
+    "disallow": [
+      "/"
+    ],
+    "allow": [
+      "/private"
+    ],
+    "sitemap": "",
+    "crawl_delay": 120
+  }
+]\n
