@@ -51,6 +51,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ConsentLedger](ConsentLedger/) | Audits consent records for evidence and expiry gaps | Yes |
 | [SessionSentry](SessionSentry/) | Audits application session policies for account risks | Yes |
 | [RobotsGuard](RobotsGuard/) | Audits robots.txt rules for accidental exposure and blocking | Yes |
+| [VendorWatch](VendorWatch/) | Audits third-party vendors for assurance and ownership gaps | Yes |
 
 ## Getting started
 
