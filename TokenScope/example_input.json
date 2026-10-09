@@ -1,0 +1,21 @@
+[
+  {
+    "name": "ci-read",
+    "scopes": [
+      "repo:read"
+    ],
+    "expires_in_days": 30,
+    "last_used_days_ago": 1,
+    "owner": "platform"
+  },
+  {
+    "name": "legacy-admin",
+    "scopes": [
+      "admin",
+      "write:*"
+    ],
+    "expires_in_days": null,
+    "last_used_days_ago": 200,
+    "owner": ""
+  }
+]\n
