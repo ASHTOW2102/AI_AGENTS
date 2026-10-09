@@ -47,6 +47,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [AccessReview](AccessReview/) | Audits user access exports for stale and excessive privileges | Yes |
 | [ReleaseReady](ReleaseReady/) | Audits software releases for rollout and rollback readiness | Yes |
 | [DNSGuard](DNSGuard/) | Audits DNS records for mail and domain-security gaps | Yes |
+| [InvoiceAudit](InvoiceAudit/) | Recalculates invoices and flags payment-data inconsistencies | Yes |
 
 ## Getting started
 

@@ -1,0 +1,16 @@
+[
+  {
+    "number": "INV-1",
+    "subtotal": 100,
+    "tax": 20,
+    "total": 120,
+    "paid": 120
+  },
+  {
+    "number": "INV-2",
+    "subtotal": 100,
+    "tax": 20,
+    "total": 150,
+    "paid": -5
+  }
+]\n
