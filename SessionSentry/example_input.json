@@ -1,0 +1,18 @@
+[
+  {
+    "application": "portal",
+    "idle_minutes": 15,
+    "absolute_minutes": 480,
+    "rotate_on_login": true,
+    "secure_cookie": true,
+    "max_sessions": 3
+  },
+  {
+    "application": "legacy",
+    "idle_minutes": 1440,
+    "absolute_minutes": 10080,
+    "rotate_on_login": false,
+    "secure_cookie": false,
+    "max_sessions": null
+  }
+]\n

@@ -49,6 +49,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DNSGuard](DNSGuard/) | Audits DNS records for mail and domain-security gaps | Yes |
 | [InvoiceAudit](InvoiceAudit/) | Recalculates invoices and flags payment-data inconsistencies | Yes |
 | [ConsentLedger](ConsentLedger/) | Audits consent records for evidence and expiry gaps | Yes |
+| [SessionSentry](SessionSentry/) | Audits application session policies for account risks | Yes |
 
 ## Getting started
 
