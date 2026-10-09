@@ -46,6 +46,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [QuotaSentry](QuotaSentry/) | Audits API quotas and rate-limit configurations | Yes |
 | [AccessReview](AccessReview/) | Audits user access exports for stale and excessive privileges | Yes |
 | [ReleaseReady](ReleaseReady/) | Audits software releases for rollout and rollback readiness | Yes |
+| [DNSGuard](DNSGuard/) | Audits DNS records for mail and domain-security gaps | Yes |
 
 ## Getting started
 

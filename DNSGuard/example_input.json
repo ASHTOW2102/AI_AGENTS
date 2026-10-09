@@ -1,0 +1,16 @@
+[
+  {
+    "domain": "example.com",
+    "spf": true,
+    "dmarc": true,
+    "caa": true,
+    "wildcard": false
+  },
+  {
+    "domain": "legacy.example",
+    "spf": false,
+    "dmarc": false,
+    "caa": false,
+    "wildcard": true
+  }
+]\n
