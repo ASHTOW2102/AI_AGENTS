@@ -1,0 +1,18 @@
+[
+  {
+    "id": "CHG-1",
+    "owner": "platform",
+    "start_hour": 2,
+    "duration_minutes": 30,
+    "rollback": true,
+    "service": "api"
+  },
+  {
+    "id": "CHG-2",
+    "owner": "",
+    "start_hour": 12,
+    "duration_minutes": 240,
+    "rollback": false,
+    "service": "database"
+  }
+]\n

@@ -52,6 +52,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SessionSentry](SessionSentry/) | Audits application session policies for account risks | Yes |
 | [RobotsGuard](RobotsGuard/) | Audits robots.txt rules for accidental exposure and blocking | Yes |
 | [VendorWatch](VendorWatch/) | Audits third-party vendors for assurance and ownership gaps | Yes |
+| [ChangeWindow](ChangeWindow/) | Audits production changes for timing and coordination risks | Yes |
 
 ## Getting started
 
