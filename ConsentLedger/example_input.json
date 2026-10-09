@@ -1,0 +1,18 @@
+[
+  {
+    "subject_id": "user-1",
+    "purpose": "email_marketing",
+    "evidence": true,
+    "age_days": 20,
+    "valid_days": 365,
+    "withdrawal_available": true
+  },
+  {
+    "subject_id": "user-2",
+    "purpose": "all",
+    "evidence": false,
+    "age_days": 500,
+    "valid_days": 365,
+    "withdrawal_available": false
+  }
+]\n

@@ -48,6 +48,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ReleaseReady](ReleaseReady/) | Audits software releases for rollout and rollback readiness | Yes |
 | [DNSGuard](DNSGuard/) | Audits DNS records for mail and domain-security gaps | Yes |
 | [InvoiceAudit](InvoiceAudit/) | Recalculates invoices and flags payment-data inconsistencies | Yes |
+| [ConsentLedger](ConsentLedger/) | Audits consent records for evidence and expiry gaps | Yes |
 
 ## Getting started
 
