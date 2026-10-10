@@ -1,0 +1,14 @@
+[
+  {
+    "name": "requests",
+    "license": "Apache-2.0",
+    "attribution_present": true,
+    "approved": true
+  },
+  {
+    "name": "mystery-lib",
+    "license": "UNKNOWN",
+    "attribution_present": false,
+    "approved": false
+  }
+]\n

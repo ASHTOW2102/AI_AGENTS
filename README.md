@@ -54,6 +54,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [VendorWatch](VendorWatch/) | Audits third-party vendors for assurance and ownership gaps | Yes |
 | [ChangeWindow](ChangeWindow/) | Audits production changes for timing and coordination risks | Yes |
 | [TokenScope](TokenScope/) | Audits API token metadata for excessive permissions | Yes |
+| [LicenseLens](LicenseLens/) | Audits dependency licenses for policy and attribution risks | Yes |
 
 ## Getting started
 
