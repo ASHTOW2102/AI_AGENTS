@@ -1,0 +1,16 @@
+[
+  {
+    "domain": "example.com",
+    "days_remaining": 300,
+    "auto_renew": true,
+    "owner": "platform",
+    "registrar_lock": true
+  },
+  {
+    "domain": "old.example",
+    "days_remaining": 5,
+    "auto_renew": false,
+    "owner": "",
+    "registrar_lock": false
+  }
+]\n

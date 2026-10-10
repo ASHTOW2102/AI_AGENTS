@@ -55,6 +55,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ChangeWindow](ChangeWindow/) | Audits production changes for timing and coordination risks | Yes |
 | [TokenScope](TokenScope/) | Audits API token metadata for excessive permissions | Yes |
 | [LicenseLens](LicenseLens/) | Audits dependency licenses for policy and attribution risks | Yes |
+| [DomainExpiry](DomainExpiry/) | Audits domain portfolios for renewal and ownership risks | Yes |
 
 ## Getting started
 
