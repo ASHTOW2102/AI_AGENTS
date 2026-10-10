@@ -1,0 +1,18 @@
+[
+  {
+    "service": "checkout",
+    "owner": "payments",
+    "reviewed_days_ago": 20,
+    "rollback_steps": true,
+    "tested_days_ago": 30,
+    "contacts": true
+  },
+  {
+    "service": "legacy",
+    "owner": "",
+    "reviewed_days_ago": 500,
+    "rollback_steps": false,
+    "tested_days_ago": null,
+    "contacts": false
+  }
+]\n
