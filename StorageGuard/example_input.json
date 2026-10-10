@@ -1,0 +1,16 @@
+[
+  {
+    "name": "backups",
+    "public": false,
+    "encryption": true,
+    "versioning": true,
+    "retention_days": 30
+  },
+  {
+    "name": "uploads",
+    "public": true,
+    "encryption": false,
+    "versioning": false,
+    "retention_days": null
+  }
+]\n
