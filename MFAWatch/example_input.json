@@ -1,0 +1,22 @@
+[
+  {
+    "user": "alex",
+    "role": "member",
+    "mfa": true,
+    "factors": [
+      "webauthn"
+    ],
+    "inactive_days": 2,
+    "recovery": true
+  },
+  {
+    "user": "root-old",
+    "role": "admin",
+    "mfa": false,
+    "factors": [
+      "sms"
+    ],
+    "inactive_days": 180,
+    "recovery": false
+  }
+]\n
