@@ -60,6 +60,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [BranchShield](BranchShield/) | Audits repository branch-protection configurations | Yes |
 | [MFAWatch](MFAWatch/) | Audits account inventories for multi-factor authentication gaps | Yes |
 | [RunbookReady](RunbookReady/) | Audits operational runbooks for incident readiness | Yes |
+| [ImageBudget](ImageBudget/) | Audits web images for performance and accessibility budgets | Yes |
 
 ## Getting started
 

@@ -1,0 +1,18 @@
+[
+  {
+    "path": "hero.webp",
+    "bytes": 120000,
+    "width": 1200,
+    "height": 600,
+    "alt": "Team working",
+    "format": "webp"
+  },
+  {
+    "path": "banner.png",
+    "bytes": 3000000,
+    "width": null,
+    "height": null,
+    "alt": "",
+    "format": "bmp"
+  }
+]\n
