@@ -1,0 +1,16 @@
+[
+  {
+    "name": "API down",
+    "owner": "platform",
+    "fires_per_day": 0.2,
+    "runbook": true,
+    "message": "API unavailable in region"
+  },
+  {
+    "name": "Error",
+    "owner": "",
+    "fires_per_day": 200,
+    "runbook": false,
+    "message": "Something happened"
+  }
+]\n
