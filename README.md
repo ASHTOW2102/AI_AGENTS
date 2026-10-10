@@ -57,6 +57,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LicenseLens](LicenseLens/) | Audits dependency licenses for policy and attribution risks | Yes |
 | [DomainExpiry](DomainExpiry/) | Audits domain portfolios for renewal and ownership risks | Yes |
 | [StorageGuard](StorageGuard/) | Audits object-storage buckets for exposure and protection gaps | Yes |
+| [BranchShield](BranchShield/) | Audits repository branch-protection configurations | Yes |
 
 ## Getting started
 

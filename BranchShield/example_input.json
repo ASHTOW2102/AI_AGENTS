@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "api",
+    "branch": "main",
+    "required_reviews": 2,
+    "status_checks": true,
+    "force_push": false,
+    "admin_bypass": false
+  },
+  {
+    "repository": "legacy",
+    "branch": "master",
+    "required_reviews": 0,
+    "status_checks": false,
+    "force_push": true,
+    "admin_bypass": true
+  }
+]\n
