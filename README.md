@@ -71,6 +71,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [HealthProbe](HealthProbe/) | Audits service health-check definitions for reliability gaps | Yes |
 | [ScriptSentry](ScriptSentry/) | Audits third-party web scripts for supply-chain risks | Yes |
 | [PortGuard](PortGuard/) | Audits network service inventories for exposed risky ports | Yes |
+| [EncryptionAudit](EncryptionAudit/) | Audits dataset encryption policies and key governance | Yes |
 
 ## Getting started
 

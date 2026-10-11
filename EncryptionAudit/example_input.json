@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "customers",
+    "encrypted": true,
+    "algorithm": "AES-256-GCM",
+    "dedicated_key": true,
+    "key_age_days": 30
+  },
+  {
+    "dataset": "archive",
+    "encrypted": false,
+    "algorithm": "DES",
+    "dedicated_key": false,
+    "key_age_days": 900
+  }
+]\n
