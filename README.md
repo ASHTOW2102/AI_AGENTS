@@ -78,6 +78,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [PinDoctor](PinDoctor/) | Audits dependency pinning and package-source hygiene | Yes |
 | [OwnershipMap](OwnershipMap/) | Audits operational assets for ownership coverage | Yes |
 | [StatusPageAudit](StatusPageAudit/) | Audits public status-page readiness and maintenance | Yes |
+| [EmailTemplateAudit](EmailTemplateAudit/) | Audits transactional email templates for compliance gaps | Yes |
 
 ## Getting started
 

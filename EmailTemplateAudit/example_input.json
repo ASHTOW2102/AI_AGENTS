@@ -1,0 +1,16 @@
+[
+  {
+    "template": "receipt",
+    "unsubscribe": true,
+    "plaintext": true,
+    "subject": "Your receipt",
+    "owner": "commerce"
+  },
+  {
+    "template": "promo",
+    "unsubscribe": false,
+    "plaintext": false,
+    "subject": "",
+    "owner": ""
+  }
+]\n
