@@ -80,6 +80,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [StatusPageAudit](StatusPageAudit/) | Audits public status-page readiness and maintenance | Yes |
 | [EmailTemplateAudit](EmailTemplateAudit/) | Audits transactional email templates for compliance gaps | Yes |
 | [MobilePermission](MobilePermission/) | Audits mobile-app permission requests for privacy risks | Yes |
+| [DataFreshness](DataFreshness/) | Audits datasets for freshness and pipeline ownership gaps | Yes |
 
 ## Getting started
 

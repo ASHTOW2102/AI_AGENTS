@@ -1,0 +1,16 @@
+[
+  {
+    "dataset": "orders",
+    "age_minutes": 10,
+    "sla_minutes": 60,
+    "owner": "analytics",
+    "monitoring": true
+  },
+  {
+    "dataset": "inventory",
+    "age_minutes": 500,
+    "sla_minutes": 30,
+    "owner": "",
+    "monitoring": false
+  }
+]\n
