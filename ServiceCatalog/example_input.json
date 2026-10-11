@@ -1,0 +1,16 @@
+[
+  {
+    "name": "checkout",
+    "owner": "payments",
+    "repository": "org/checkout",
+    "tier": 1,
+    "docs_age_days": 20
+  },
+  {
+    "name": "mystery",
+    "owner": "",
+    "repository": "",
+    "tier": 9,
+    "docs_age_days": 500
+  }
+]\n
