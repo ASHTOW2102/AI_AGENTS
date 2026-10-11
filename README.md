@@ -76,6 +76,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [EnvParity](EnvParity/) | Audits deployment environments for configuration parity | Yes |
 | [LinkSentinel](LinkSentinel/) | Audits website links for availability and redirect problems | Yes |
 | [PinDoctor](PinDoctor/) | Audits dependency pinning and package-source hygiene | Yes |
+| [OwnershipMap](OwnershipMap/) | Audits operational assets for ownership coverage | Yes |
 
 ## Getting started
 

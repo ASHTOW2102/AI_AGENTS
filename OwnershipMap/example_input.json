@@ -1,0 +1,16 @@
+[
+  {
+    "asset": "payments-api",
+    "owner": "payments",
+    "backup_owner": "platform",
+    "escalation": true,
+    "docs": true
+  },
+  {
+    "asset": "legacy-job",
+    "owner": "",
+    "backup_owner": "",
+    "escalation": false,
+    "docs": false
+  }
+]\n
