@@ -1,0 +1,16 @@
+[
+  {
+    "name": "production",
+    "drift_count": 0,
+    "owner": "platform",
+    "debug": false,
+    "untracked_overrides": 0
+  },
+  {
+    "name": "staging",
+    "drift_count": 12,
+    "owner": "",
+    "debug": true,
+    "untracked_overrides": 3
+  }
+]\n
