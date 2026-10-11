@@ -1,0 +1,16 @@
+[
+  {
+    "application": "portal",
+    "min_length": 14,
+    "breach_check": true,
+    "secure_reset": true,
+    "lockout_attempts": 5
+  },
+  {
+    "application": "legacy",
+    "min_length": 6,
+    "breach_check": false,
+    "secure_reset": false,
+    "lockout_attempts": null
+  }
+]\n
