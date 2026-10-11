@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://example.com",
+    "status": 200,
+    "redirects": 0,
+    "owner": "web"
+  },
+  {
+    "url": "http://old.example",
+    "status": 500,
+    "redirects": 6,
+    "owner": ""
+  }
+]\n
