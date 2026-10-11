@@ -68,6 +68,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SitemapScout](SitemapScout/) | Audits sitemap entries for indexing and freshness problems | Yes |
 | [MaskingAudit](MaskingAudit/) | Audits sensitive-data fields for masking coverage | Yes |
 | [ServiceCatalog](ServiceCatalog/) | Audits service catalogs for ownership and lifecycle gaps | Yes |
+| [HealthProbe](HealthProbe/) | Audits service health-check definitions for reliability gaps | Yes |
 
 ## Getting started
 

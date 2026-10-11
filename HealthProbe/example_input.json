@@ -1,0 +1,16 @@
+[
+  {
+    "service": "api",
+    "interval_seconds": 30,
+    "timeout_seconds": 3,
+    "checks_dependencies": true,
+    "check_type": "readiness"
+  },
+  {
+    "service": "legacy",
+    "interval_seconds": 600,
+    "timeout_seconds": 120,
+    "checks_dependencies": false,
+    "check_type": "tcp"
+  }
+]\n
