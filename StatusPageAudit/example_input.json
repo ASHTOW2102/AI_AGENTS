@@ -1,0 +1,16 @@
+[
+  {
+    "component": "API",
+    "public": true,
+    "test_age_days": 10,
+    "subscriptions": true,
+    "owner": "platform"
+  },
+  {
+    "component": "Database",
+    "public": false,
+    "test_age_days": 500,
+    "subscriptions": false,
+    "owner": ""
+  }
+]\n

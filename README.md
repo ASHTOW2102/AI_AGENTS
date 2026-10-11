@@ -77,6 +77,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LinkSentinel](LinkSentinel/) | Audits website links for availability and redirect problems | Yes |
 | [PinDoctor](PinDoctor/) | Audits dependency pinning and package-source hygiene | Yes |
 | [OwnershipMap](OwnershipMap/) | Audits operational assets for ownership coverage | Yes |
+| [StatusPageAudit](StatusPageAudit/) | Audits public status-page readiness and maintenance | Yes |
 
 ## Getting started
 
