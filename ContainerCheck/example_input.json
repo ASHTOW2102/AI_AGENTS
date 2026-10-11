@@ -1,0 +1,18 @@
+[
+  {
+    "name": "api",
+    "run_as_root": false,
+    "privileged": false,
+    "read_only_root": true,
+    "cpu_limit": true,
+    "memory_limit": true
+  },
+  {
+    "name": "legacy",
+    "run_as_root": true,
+    "privileged": true,
+    "read_only_root": false,
+    "cpu_limit": false,
+    "memory_limit": false
+  }
+]\n
