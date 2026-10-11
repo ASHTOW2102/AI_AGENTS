@@ -81,6 +81,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [EmailTemplateAudit](EmailTemplateAudit/) | Audits transactional email templates for compliance gaps | Yes |
 | [MobilePermission](MobilePermission/) | Audits mobile-app permission requests for privacy risks | Yes |
 | [DataFreshness](DataFreshness/) | Audits datasets for freshness and pipeline ownership gaps | Yes |
+| [SchemaContract](SchemaContract/) | Audits data contracts for compatibility and governance gaps | Yes |
 
 ## Getting started
 

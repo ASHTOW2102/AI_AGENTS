@@ -1,0 +1,16 @@
+[
+  {
+    "name": "order-event",
+    "version": "2.1",
+    "backward_compatible": true,
+    "owner": "commerce",
+    "examples": true
+  },
+  {
+    "name": "legacy-event",
+    "version": "",
+    "backward_compatible": false,
+    "owner": "",
+    "examples": false
+  }
+]\n
