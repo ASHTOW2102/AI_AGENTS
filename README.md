@@ -64,6 +64,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [AlertNoise](AlertNoise/) | Audits monitoring alerts for noise and ownership risks | Yes |
 | [PasswordGuard](PasswordGuard/) | Audits password policies for weak authentication controls | Yes |
 | [ContainerCheck](ContainerCheck/) | Audits container settings for runtime hardening gaps | Yes |
+| [FirewallLens](FirewallLens/) | Audits firewall rules for exposure and governance risks | Yes |
 
 ## Getting started
 

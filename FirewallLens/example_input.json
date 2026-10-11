@@ -1,0 +1,19 @@
+[
+  {
+    "name": "web",
+    "source": "0.0.0.0/0",
+    "port": 443,
+    "protocol": "tcp",
+    "owner": "platform",
+    "temporary": false
+  },
+  {
+    "name": "ssh-temp",
+    "source": "0.0.0.0/0",
+    "port": 22,
+    "protocol": "tcp",
+    "owner": "",
+    "temporary": true,
+    "expires_in_days": null
+  }
+]\n
