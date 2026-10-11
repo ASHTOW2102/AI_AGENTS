@@ -75,6 +75,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [PaginationGuard](PaginationGuard/) | Audits API pagination settings for reliability risks | Yes |
 | [EnvParity](EnvParity/) | Audits deployment environments for configuration parity | Yes |
 | [LinkSentinel](LinkSentinel/) | Audits website links for availability and redirect problems | Yes |
+| [PinDoctor](PinDoctor/) | Audits dependency pinning and package-source hygiene | Yes |
 
 ## Getting started
 

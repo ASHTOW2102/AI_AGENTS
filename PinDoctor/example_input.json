@@ -1,0 +1,16 @@
+[
+  {
+    "package": "httpx",
+    "pinned": true,
+    "age_days": 30,
+    "trusted_source": true,
+    "hash_locked": true
+  },
+  {
+    "package": "mystery",
+    "pinned": false,
+    "age_days": 900,
+    "trusted_source": false,
+    "hash_locked": false
+  }
+]\n
