@@ -1,0 +1,18 @@
+[
+  {
+    "field": "email",
+    "classification": "personal",
+    "masked": true,
+    "reversible": false,
+    "sample_present": false,
+    "owner": "privacy"
+  },
+  {
+    "field": "card_number",
+    "classification": "payment",
+    "masked": false,
+    "reversible": true,
+    "sample_present": true,
+    "owner": ""
+  }
+]\n

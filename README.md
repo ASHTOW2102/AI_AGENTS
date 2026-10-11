@@ -66,6 +66,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ContainerCheck](ContainerCheck/) | Audits container settings for runtime hardening gaps | Yes |
 | [FirewallLens](FirewallLens/) | Audits firewall rules for exposure and governance risks | Yes |
 | [SitemapScout](SitemapScout/) | Audits sitemap entries for indexing and freshness problems | Yes |
+| [MaskingAudit](MaskingAudit/) | Audits sensitive-data fields for masking coverage | Yes |
 
 ## Getting started
 
