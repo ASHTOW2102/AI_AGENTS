@@ -1,0 +1,16 @@
+[
+  {
+    "endpoint": "/orders",
+    "default_limit": 50,
+    "max_limit": 200,
+    "stable_sort": true,
+    "continuation_token": true
+  },
+  {
+    "endpoint": "/events",
+    "default_limit": null,
+    "max_limit": 10000,
+    "stable_sort": false,
+    "continuation_token": false
+  }
+]\n
