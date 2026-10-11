@@ -1,0 +1,18 @@
+[
+  {
+    "permission": "camera",
+    "sensitive": true,
+    "required": true,
+    "purpose": "Scan QR codes",
+    "background": false,
+    "owner": "mobile"
+  },
+  {
+    "permission": "location",
+    "sensitive": true,
+    "required": false,
+    "purpose": "",
+    "background": true,
+    "owner": ""
+  }
+]\n

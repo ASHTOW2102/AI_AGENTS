@@ -79,6 +79,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [OwnershipMap](OwnershipMap/) | Audits operational assets for ownership coverage | Yes |
 | [StatusPageAudit](StatusPageAudit/) | Audits public status-page readiness and maintenance | Yes |
 | [EmailTemplateAudit](EmailTemplateAudit/) | Audits transactional email templates for compliance gaps | Yes |
+| [MobilePermission](MobilePermission/) | Audits mobile-app permission requests for privacy risks | Yes |
 
 ## Getting started
 
