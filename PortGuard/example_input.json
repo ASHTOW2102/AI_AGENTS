@@ -1,0 +1,18 @@
+[
+  {
+    "host": "api",
+    "port": 443,
+    "protocol": "https",
+    "public": true,
+    "owner": "platform",
+    "debug": false
+  },
+  {
+    "host": "db",
+    "port": 5432,
+    "protocol": "postgres",
+    "public": true,
+    "owner": "",
+    "debug": true
+  }
+]\n

@@ -70,6 +70,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ServiceCatalog](ServiceCatalog/) | Audits service catalogs for ownership and lifecycle gaps | Yes |
 | [HealthProbe](HealthProbe/) | Audits service health-check definitions for reliability gaps | Yes |
 | [ScriptSentry](ScriptSentry/) | Audits third-party web scripts for supply-chain risks | Yes |
+| [PortGuard](PortGuard/) | Audits network service inventories for exposed risky ports | Yes |
 
 ## Getting started
 
