@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://example.com/",
+    "last_modified_days": 2,
+    "priority": 1
+  },
+  {
+    "url": "http://example.com/old",
+    "last_modified_days": 800,
+    "priority": 2
+  }
+]\n
