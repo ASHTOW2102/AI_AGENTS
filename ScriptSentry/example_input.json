@@ -1,0 +1,16 @@
+[
+  {
+    "src": "https://cdn.example.com/app.js",
+    "integrity": true,
+    "owner": "web",
+    "pages": 2,
+    "approved": true
+  },
+  {
+    "src": "http://unknown.example/tracker.js",
+    "integrity": false,
+    "owner": "",
+    "pages": 500,
+    "approved": false
+  }
+]\n

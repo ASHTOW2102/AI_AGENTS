@@ -69,6 +69,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [MaskingAudit](MaskingAudit/) | Audits sensitive-data fields for masking coverage | Yes |
 | [ServiceCatalog](ServiceCatalog/) | Audits service catalogs for ownership and lifecycle gaps | Yes |
 | [HealthProbe](HealthProbe/) | Audits service health-check definitions for reliability gaps | Yes |
+| [ScriptSentry](ScriptSentry/) | Audits third-party web scripts for supply-chain risks | Yes |
 
 ## Getting started
 
