@@ -83,6 +83,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DataFreshness](DataFreshness/) | Audits datasets for freshness and pipeline ownership gaps | Yes |
 | [SchemaContract](SchemaContract/) | Audits data contracts for compatibility and governance gaps | Yes |
 | [MigrationGuard](MigrationGuard/) | Audits database migrations for destructive changes and rollout risks | Yes |
+| [IndexAdvisor](IndexAdvisor/) | Audits database index inventories for performance risks | Yes |
 
 ## Getting started
 

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "orders_customer_idx",
+    "usage_per_day": 120,
+    "size_mb": 80,
+    "duplicate": false,
+    "owner": "database"
+  },
+  {
+    "name": "legacy_idx",
+    "usage_per_day": 0,
+    "size_mb": 9000,
+    "duplicate": true,
+    "owner": ""
+  }
+]\n
