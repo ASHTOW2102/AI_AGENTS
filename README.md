@@ -88,6 +88,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ArtifactIntegrity](ArtifactIntegrity/) | Audits build artifacts for integrity and provenance gaps | Yes |
 | [ReplicationWatch](ReplicationWatch/) | Audits database replicas for lag and resilience gaps | Yes |
 | [OnCallCoverage](OnCallCoverage/) | Audits on-call schedules for coverage and escalation gaps | Yes |
+| [ResourceTagger](ResourceTagger/) | Audits cloud resources for cost-allocation tag gaps | Yes |
 
 ## Getting started
 

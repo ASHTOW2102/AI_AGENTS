@@ -1,0 +1,16 @@
+[
+  {
+    "resource": "vm-101",
+    "owner": "platform",
+    "environment": "production",
+    "cost_centre": "CC42",
+    "lifecycle": "managed"
+  },
+  {
+    "resource": "disk-old",
+    "owner": "",
+    "environment": "",
+    "cost_centre": "",
+    "lifecycle": ""
+  }
+]\n
