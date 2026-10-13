@@ -85,6 +85,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [MigrationGuard](MigrationGuard/) | Audits database migrations for destructive changes and rollout risks | Yes |
 | [IndexAdvisor](IndexAdvisor/) | Audits database index inventories for performance risks | Yes |
 | [PatchWindow](PatchWindow/) | Audits vulnerability patch plans for overdue remediation | Yes |
+| [ArtifactIntegrity](ArtifactIntegrity/) | Audits build artifacts for integrity and provenance gaps | Yes |
 
 ## Getting started
 

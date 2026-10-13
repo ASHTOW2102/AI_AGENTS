@@ -1,0 +1,16 @@
+[
+  {
+    "artifact": "api-2.1.tar",
+    "signed": true,
+    "checksum": true,
+    "provenance": true,
+    "immutable": true
+  },
+  {
+    "artifact": "api-latest.tar",
+    "signed": false,
+    "checksum": false,
+    "provenance": false,
+    "immutable": false
+  }
+]\n
