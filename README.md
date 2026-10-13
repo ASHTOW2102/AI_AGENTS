@@ -91,6 +91,15 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ResourceTagger](ResourceTagger/) | Audits cloud resources for cost-allocation tag gaps | Yes |
 | [ModelCardAudit](ModelCardAudit/) | Audits AI model cards for transparency and risk gaps | Yes |
 | [PromptVersion](PromptVersion/) | Audits production prompts for versioning and evaluation gaps | Yes |
+| [CORSCompass](CORSCompass/) | Audits CORS policies for unsafe cross-origin access | Yes |
+| [SBOMScout](SBOMScout/) | Audits software bills of materials for supply-chain evidence gaps | Yes |
+| [TerraformPlanGuard](TerraformPlanGuard/) | Reviews Terraform plans for destructive infrastructure changes | Yes |
+| [DataLineageAudit](DataLineageAudit/) | Audits dataset lineage and retention metadata | Yes |
+| [IncidentTimeline](IncidentTimeline/) | Validates incident chronology, actors, and evidence | Yes |
+| [DependencyFreshness](DependencyFreshness/) | Prioritises stale and lagging dependencies | Yes |
+| [LLMEvidenceAudit](LLMEvidenceAudit/) | Audits generated answers for evidence and uncertainty signals | Yes |
+| [CIWorkflowAudit](CIWorkflowAudit/) | Audits CI jobs for privilege and reproducibility risks | Yes |
+| [DatasetFairness](DatasetFairness/) | Screens group outcome rates for material disparities | Yes |
 
 ## Getting started
 
