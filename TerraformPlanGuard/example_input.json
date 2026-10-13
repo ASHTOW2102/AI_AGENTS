@@ -1,0 +1,1 @@
+{"resource_changes":[{"address":"aws_db_instance.main","change":{"actions":["delete","create"]}}]}
