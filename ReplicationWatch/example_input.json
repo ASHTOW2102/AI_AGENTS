@@ -1,0 +1,16 @@
+[
+  {
+    "replica": "orders-eu",
+    "lag_seconds": 2,
+    "healthy": true,
+    "failover_test_days": 20,
+    "cross_region": true
+  },
+  {
+    "replica": "orders-old",
+    "lag_seconds": 600,
+    "healthy": false,
+    "failover_test_days": 500,
+    "cross_region": false
+  }
+]\n

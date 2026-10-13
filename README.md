@@ -86,6 +86,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [IndexAdvisor](IndexAdvisor/) | Audits database index inventories for performance risks | Yes |
 | [PatchWindow](PatchWindow/) | Audits vulnerability patch plans for overdue remediation | Yes |
 | [ArtifactIntegrity](ArtifactIntegrity/) | Audits build artifacts for integrity and provenance gaps | Yes |
+| [ReplicationWatch](ReplicationWatch/) | Audits database replicas for lag and resilience gaps | Yes |
 
 ## Getting started
 
