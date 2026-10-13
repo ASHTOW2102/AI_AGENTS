@@ -1,0 +1,16 @@
+[
+  {
+    "team": "platform",
+    "uncovered_hours": 0,
+    "shifts_per_person": 4,
+    "backup": true,
+    "escalation": true
+  },
+  {
+    "team": "payments",
+    "uncovered_hours": 12,
+    "shifts_per_person": 15,
+    "backup": false,
+    "escalation": false
+  }
+]\n
