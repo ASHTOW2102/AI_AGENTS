@@ -1,0 +1,20 @@
+[
+  {
+    "component": "gateway",
+    "severity": "medium",
+    "age_days": 10,
+    "sla_days": 30,
+    "owner": "platform",
+    "window": true,
+    "tested": true
+  },
+  {
+    "component": "kernel",
+    "severity": "critical",
+    "age_days": 90,
+    "sla_days": 7,
+    "owner": "",
+    "window": false,
+    "tested": false
+  }
+]\n
