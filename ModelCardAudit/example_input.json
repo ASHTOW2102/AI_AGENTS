@@ -1,0 +1,18 @@
+[
+  {
+    "model": "classifier-v2",
+    "owner": "ml",
+    "limitations": true,
+    "evaluation": true,
+    "data_documented": true,
+    "human_review": true
+  },
+  {
+    "model": "auto-decider",
+    "owner": "",
+    "limitations": false,
+    "evaluation": false,
+    "data_documented": false,
+    "human_review": false
+  }
+]\n
