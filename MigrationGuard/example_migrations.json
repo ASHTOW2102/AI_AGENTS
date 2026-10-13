@@ -1,0 +1,20 @@
+[
+  {
+    "id": "20261013_add_status",
+    "operation": "add_column",
+    "owner": "orders",
+    "estimated_lock_seconds": 1,
+    "rollback_available": true,
+    "tested_on_copy": true,
+    "online": true
+  },
+  {
+    "id": "20261013_reindex_orders",
+    "operation": "add_index",
+    "owner": "database",
+    "estimated_lock_seconds": 18,
+    "rollback_available": true,
+    "tested_on_copy": true,
+    "online": false
+  }
+]\n
