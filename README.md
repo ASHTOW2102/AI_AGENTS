@@ -90,6 +90,7 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [OnCallCoverage](OnCallCoverage/) | Audits on-call schedules for coverage and escalation gaps | Yes |
 | [ResourceTagger](ResourceTagger/) | Audits cloud resources for cost-allocation tag gaps | Yes |
 | [ModelCardAudit](ModelCardAudit/) | Audits AI model cards for transparency and risk gaps | Yes |
+| [PromptVersion](PromptVersion/) | Audits production prompts for versioning and evaluation gaps | Yes |
 
 ## Getting started
 
