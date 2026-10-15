@@ -100,6 +100,14 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LLMEvidenceAudit](LLMEvidenceAudit/) | Audits generated answers for evidence and uncertainty signals | Yes |
 | [CIWorkflowAudit](CIWorkflowAudit/) | Audits CI jobs for privilege and reproducibility risks | Yes |
 | [DatasetFairness](DatasetFairness/) | Screens group outcome rates for material disparities | Yes |
+| [APIErrorCatalog](APIErrorCatalog/) | Audits API error contracts for safety and consistency | Yes |
+| [DRObjectiveAudit](DRObjectiveAudit/) | Audits recovery objectives and exercise evidence | Yes |
+| [DataQualityGate](DataQualityGate/) | Enforces null, duplicate, and volume quality gates | Yes |
+| [PromptCostGuard](PromptCostGuard/) | Estimates LLM workflow costs and checks budgets | Yes |
+| [MLDriftWatch](MLDriftWatch/) | Screens numerical feature summaries for drift | Yes |
+| [RegexRiskAudit](RegexRiskAudit/) | Flags risky regular-expression structures | Yes |
+| [DependencyCycleAudit](DependencyCycleAudit/) | Detects service dependency cycles and missing references | Yes |
+| [SyntheticMonitorAudit](SyntheticMonitorAudit/) | Audits synthetic-monitor coverage and alerting | Yes |
 
 ## Getting started
 
