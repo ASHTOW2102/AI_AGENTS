@@ -108,6 +108,20 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [RegexRiskAudit](RegexRiskAudit/) | Flags risky regular-expression structures | Yes |
 | [DependencyCycleAudit](DependencyCycleAudit/) | Detects service dependency cycles and missing references | Yes |
 | [SyntheticMonitorAudit](SyntheticMonitorAudit/) | Audits synthetic-monitor coverage and alerting | Yes |
+| [APIDeprecationAudit](APIDeprecationAudit/) | Audits endpoint sunset and migration readiness | Yes |
+| [AuditTrailAudit](AuditTrailAudit/) | Audits security-event accountability and integrity | Yes |
+| [CircuitBreakerAudit](CircuitBreakerAudit/) | Audits dependency circuit-breaker readiness | Yes |
+| [FileUploadPolicy](FileUploadPolicy/) | Audits file-upload security controls | Yes |
+| [GraphQLQueryBudget](GraphQLQueryBudget/) | Enforces GraphQL depth and complexity budgets | Yes |
+| [IdempotencyKeyAudit](IdempotencyKeyAudit/) | Audits mutation idempotency safeguards | Yes |
+| [LogSamplingAudit](LogSamplingAudit/) | Audits unsafe log-sampling policies | Yes |
+| [MaintenanceScheduleAudit](MaintenanceScheduleAudit/) | Audits maintenance windows and rollback readiness | Yes |
+| [MessageContractAudit](MessageContractAudit/) | Audits event-message contract governance | Yes |
+| [ObservabilityCoverage](ObservabilityCoverage/) | Audits service telemetry coverage | Yes |
+| [RequestTimeoutAudit](RequestTimeoutAudit/) | Audits outbound request timeout policies | Yes |
+| [DataResidencyAudit](DataResidencyAudit/) | Audits declared dataset hosting regions | Yes |
+| [ExternalEndpointAudit](ExternalEndpointAudit/) | Audits external endpoint safeguards | Yes |
+| [CacheKeyAudit](CacheKeyAudit/) | Audits cache-key isolation and variation | Yes |
 
 ## Getting started
 
