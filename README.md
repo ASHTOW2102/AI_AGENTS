@@ -122,6 +122,17 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DataResidencyAudit](DataResidencyAudit/) | Audits declared dataset hosting regions | Yes |
 | [ExternalEndpointAudit](ExternalEndpointAudit/) | Audits external endpoint safeguards | Yes |
 | [CacheKeyAudit](CacheKeyAudit/) | Audits cache-key isolation and variation | Yes |
+| [APIResponseBudget](APIResponseBudget/) | Audits API response size and pagination budgets | Yes |
+| [ClockSkewAudit](ClockSkewAudit/) | Audits distributed-system clock synchronisation | Yes |
+| [CompressionPolicyAudit](CompressionPolicyAudit/) | Audits response compression safety and efficiency | Yes |
+| [ConnectionPoolAudit](ConnectionPoolAudit/) | Audits database connection-pool safeguards | Yes |
+| [DeploymentHealthGate](DeploymentHealthGate/) | Enforces deployment health and rollback gates | Yes |
+| [ErrorBudgetAudit](ErrorBudgetAudit/) | Audits reliability error-budget consumption | Yes |
+| [MemoryLimitAudit](MemoryLimitAudit/) | Audits workload memory capacity and headroom | Yes |
+| [OAuthRedirectAudit](OAuthRedirectAudit/) | Audits OAuth redirects and PKCE enforcement | Yes |
+| [SearchIndexAudit](SearchIndexAudit/) | Audits search-index completeness and freshness | Yes |
+| [WebSocketPolicyAudit](WebSocketPolicyAudit/) | Audits WebSocket security controls | Yes |
+| [DataExportAudit](DataExportAudit/) | Audits sensitive-data export safeguards | Yes |
 
 ## Getting started
 
