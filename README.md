@@ -133,6 +133,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [SearchIndexAudit](SearchIndexAudit/) | Audits search-index completeness and freshness | Yes |
 | [WebSocketPolicyAudit](WebSocketPolicyAudit/) | Audits WebSocket security controls | Yes |
 | [DataExportAudit](DataExportAudit/) | Audits sensitive-data export safeguards | Yes |
+| [CanaryAnalysis](CanaryAnalysis/) | Compares canary and baseline rollout health | Yes |
+| [DatabaseLockAudit](DatabaseLockAudit/) | Audits database lock contention | Yes |
+| [DependencySLAAudit](DependencySLAAudit/) | Audits dependency service-level performance | Yes |
+| [EgressPolicyAudit](EgressPolicyAudit/) | Audits workload outbound network rules | Yes |
+| [GarbageCollectionAudit](GarbageCollectionAudit/) | Audits runtime GC pressure and pauses | Yes |
+| [HTTPMethodAudit](HTTPMethodAudit/) | Audits unsafe HTTP method exposure | Yes |
+| [JWTClaimAudit](JWTClaimAudit/) | Audits JWT claim requirements | Yes |
+| [KubernetesPDBAudit](KubernetesPDBAudit/) | Audits disruption budgets and replicas | Yes |
+| [LoadBalancerAudit](LoadBalancerAudit/) | Audits load-balancer resilience settings | Yes |
+| [MetricCardinalityAudit](MetricCardinalityAudit/) | Audits metric cardinality risks | Yes |
+| [NetworkLatencyAudit](NetworkLatencyAudit/) | Audits network latency and packet loss | Yes |
+| [ObjectLifecycleAudit](ObjectLifecycleAudit/) | Audits object-storage lifecycle rules | Yes |
+| [QueryTimeoutAudit](QueryTimeoutAudit/) | Audits database query timeouts | Yes |
+| [ReplicaCapacityAudit](ReplicaCapacityAudit/) | Audits workload replica capacity | Yes |
+| [SecretsMountAudit](SecretsMountAudit/) | Audits workload secret mounts | Yes |
+| [TenantIsolationAudit](TenantIsolationAudit/) | Audits multi-tenant data isolation | Yes |
+| [TracePropagationAudit](TracePropagationAudit/) | Audits distributed trace propagation | Yes |
+| [BatchJobAudit](BatchJobAudit/) | Audits batch-job safety and duration | Yes |
+| [EndpointOwnershipAudit](EndpointOwnershipAudit/) | Audits API endpoint ownership | Yes |
+| [RollbackEvidenceAudit](RollbackEvidenceAudit/) | Audits rollback test evidence | Yes |
 
 ## Getting started
 
