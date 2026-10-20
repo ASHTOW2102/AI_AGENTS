@@ -164,6 +164,15 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ClientRetryBudget](ClientRetryBudget/) | Audits bounded client retry policies | Yes |
 | [ContainerImageLifecycle](ContainerImageLifecycle/) | Audits container image pinning and maintenance metadata | Yes |
 | [ModelServingSLOAudit](ModelServingSLOAudit/) | Audits model-serving SLO and saturation signals | Yes |
+| [LoginAbuseAudit](LoginAbuseAudit/) | Audits login abuse and recovery protections | Yes |
+| [CertificateChainAudit](CertificateChainAudit/) | Audits certificate-chain trust and hostname validation | Yes |
+| [DatabaseTransportAudit](DatabaseTransportAudit/) | Audits database encryption and connection restrictions | Yes |
+| [ExperimentGuardrailAudit](ExperimentGuardrailAudit/) | Audits product experiment guardrails and assignment controls | Yes |
+| [MobileDeepLinkAudit](MobileDeepLinkAudit/) | Audits mobile deep-link authorization and validation | Yes |
+| [APIKeyRotationAudit](APIKeyRotationAudit/) | Audits API-key rotation and ownership | Yes |
+| [DataDeletionEvidenceAudit](DataDeletionEvidenceAudit/) | Tracks data-deletion requests and completion evidence | Yes |
+| [BuildArtifactRetentionAudit](BuildArtifactRetentionAudit/) | Audits build-artifact retention and access | Yes |
+| [IncidentCommunicationAudit](IncidentCommunicationAudit/) | Audits incident stakeholder update records | Yes |
 
 ## Getting started
 
