@@ -153,6 +153,17 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [BatchJobAudit](BatchJobAudit/) | Audits batch-job safety and duration | Yes |
 | [EndpointOwnershipAudit](EndpointOwnershipAudit/) | Audits API endpoint ownership | Yes |
 | [RollbackEvidenceAudit](RollbackEvidenceAudit/) | Audits rollback test evidence | Yes |
+| [SQLParameterizationAudit](SQLParameterizationAudit/) | Screens SQL templates for unsafe interpolation | Yes |
+| [BrowserStorageAudit](BrowserStorageAudit/) | Audits sensitive browser-side storage | Yes |
+| [TLSCipherAudit](TLSCipherAudit/) | Audits TLS protocol and cipher inventories | Yes |
+| [LocaleFallbackAudit](LocaleFallbackAudit/) | Audits translation fallback coverage | Yes |
+| [CSVInjectionAudit](CSVInjectionAudit/) | Detects spreadsheet formula injection in CSV data | Yes |
+| [FeatureStoreParity](FeatureStoreParity/) | Compares offline and online feature definitions | Yes |
+| [TrafficShiftAudit](TrafficShiftAudit/) | Audits staged traffic rollout plans | Yes |
+| [KubernetesHPAAudit](KubernetesHPAAudit/) | Audits Kubernetes autoscaler configuration | Yes |
+| [ClientRetryBudget](ClientRetryBudget/) | Audits bounded client retry policies | Yes |
+| [ContainerImageLifecycle](ContainerImageLifecycle/) | Audits container image pinning and maintenance metadata | Yes |
+| [ModelServingSLOAudit](ModelServingSLOAudit/) | Audits model-serving SLO and saturation signals | Yes |
 
 ## Getting started
 
