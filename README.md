@@ -184,6 +184,17 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [BackupEncryptionAudit](BackupEncryptionAudit/) | Audits backup encryption and encryption-key management | Yes |
 | [CloudFailoverReadinessAudit](CloudFailoverReadinessAudit/) | Checks regional failover objectives and exercise freshness | Yes |
 | [RateLimitRuntimeAudit](RateLimitRuntimeAudit/) | Reviews runtime rate-limit health and tenant isolation | Yes |
+| [QueueDeadLetterAudit](QueueDeadLetterAudit/) | Audits dead-letter retention, backlog, and redrive controls | Yes |
+| [FeatureFlagLifecycleAudit](FeatureFlagLifecycleAudit/) | Finds expired flags and missing production rollback plans | Yes |
+| [WebhookReliabilityAudit](WebhookReliabilityAudit/) | Reviews webhook retries, signatures, and duplicate handling | Yes |
+| [ServiceAccountLeastPrivilegeAudit](ServiceAccountLeastPrivilegeAudit/) | Flags excessive and stale service-account permissions | Yes |
+| [ObjectStorePublicAccessAudit](ObjectStorePublicAccessAudit/) | Checks object-store exposure, logging, and encryption | Yes |
+| [SessionCookiePolicyAudit](SessionCookiePolicyAudit/) | Audits session-cookie security attributes and lifetime | Yes |
+| [ThirdPartyStatusAudit](ThirdPartyStatusAudit/) | Reviews vendor status, escalation, SLA, and continuity records | Yes |
+| [PIIRedactionCoverageAudit](PIIRedactionCoverageAudit/) | Checks sensitive-field redaction coverage and evidence | Yes |
+| [DatabaseMigrationSafetyAudit](DatabaseMigrationSafetyAudit/) | Reviews database migration recovery and lock-safety plans | Yes |
+| [CostAnomalyEvidenceAudit](CostAnomalyEvidenceAudit/) | Audits cloud-cost anomaly alerting and investigation records | Yes |
+| [BackupRestoreDrillAudit](BackupRestoreDrillAudit/) | Checks restore drill coverage, RTO, integrity, and evidence | Yes |
 
 ## Getting started
 
