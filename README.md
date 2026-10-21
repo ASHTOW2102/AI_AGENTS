@@ -173,6 +173,17 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DataDeletionEvidenceAudit](DataDeletionEvidenceAudit/) | Tracks data-deletion requests and completion evidence | Yes |
 | [BuildArtifactRetentionAudit](BuildArtifactRetentionAudit/) | Audits build-artifact retention and access | Yes |
 | [IncidentCommunicationAudit](IncidentCommunicationAudit/) | Audits incident stakeholder update records | Yes |
+| [RedisKeyPolicyAudit](RedisKeyPolicyAudit/) | Audits Redis key naming, TTLs, and personal-data exposure | Yes |
+| [KubernetesQuotaAudit](KubernetesQuotaAudit/) | Audits namespace resource quota utilization and ownership | Yes |
+| [APIContentNegotiationAudit](APIContentNegotiationAudit/) | Audits API request and response media-type contracts | Yes |
+| [DatabaseVacuumAudit](DatabaseVacuumAudit/) | Flags database vacuum debt and transaction ID age | Yes |
+| [EventConsumerLagAudit](EventConsumerLagAudit/) | Audits event-consumer lag, capacity, and alert coverage | Yes |
+| [ConsentRevocationAudit](ConsentRevocationAudit/) | Tracks downstream confirmation of consent revocations | Yes |
+| [MobilePinningAudit](MobilePinningAudit/) | Audits mobile certificate-pinning and release bypass settings | Yes |
+| [AnalyticsEventPrivacyAudit](AnalyticsEventPrivacyAudit/) | Checks analytics events for privacy and retention risks | Yes |
+| [BackupEncryptionAudit](BackupEncryptionAudit/) | Audits backup encryption and encryption-key management | Yes |
+| [CloudFailoverReadinessAudit](CloudFailoverReadinessAudit/) | Checks regional failover objectives and exercise freshness | Yes |
+| [RateLimitRuntimeAudit](RateLimitRuntimeAudit/) | Reviews runtime rate-limit health and tenant isolation | Yes |
 
 ## Getting started
 
