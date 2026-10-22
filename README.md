@@ -207,6 +207,21 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DeploymentApprovalAudit](DeploymentApprovalAudit/) | Audits production deployment approval and review evidence | Yes |
 | [SearchRelevanceDriftAudit](SearchRelevanceDriftAudit/) | Checks search evaluation quality and segment coverage | Yes |
 | [LocalizationCoverageAudit](LocalizationCoverageAudit/) | Reviews locale string coverage and fallback risk | Yes |
+| [OAuthScopeDriftAudit](OAuthScopeDriftAudit/) | Audits OAuth scope grants and consent safeguards | Yes |
+| [PackageProvenanceAudit](PackageProvenanceAudit/) | Checks dependency source, version pinning, and integrity evidence | Yes |
+| [ClockNTPReadinessAudit](ClockNTPReadinessAudit/) | Reviews time-source redundancy, drift, and sync freshness | Yes |
+| [DatabaseReplicaLagAudit](DatabaseReplicaLagAudit/) | Checks replica lag, health, and promotion-test evidence | Yes |
+| [KafkaPartitionBalanceAudit](KafkaPartitionBalanceAudit/) | Audits partition balance and under-replication metrics | Yes |
+| [DataContractCompatibilityAudit](DataContractCompatibilityAudit/) | Compares producer fields with consumer contract requirements | Yes |
+| [AccessibilityContrastAudit](AccessibilityContrastAudit/) | Checks measured contrast ratios and unlabeled controls | Yes |
+| [TLSCertificateRenewalAudit](TLSCertificateRenewalAudit/) | Reviews certificate expiry and renewal readiness | Yes |
+| [APIRequestSizeAudit](APIRequestSizeAudit/) | Audits API body, streaming, and decompression size bounds | Yes |
+| [PrivacyRetentionEnforcementAudit](PrivacyRetentionEnforcementAudit/) | Checks retention limits, deletion jobs, and evidence | Yes |
+| [BackupImmutabilityAudit](BackupImmutabilityAudit/) | Reviews backup immutability and administrator separation | Yes |
+| [KubernetesPodSecurityAudit](KubernetesPodSecurityAudit/) | Checks pod privilege, host access, and filesystem controls | Yes |
+| [CISecretExposureAudit](CISecretExposureAudit/) | Flags CI workflows that could expose credentials | Yes |
+| [EmailDeliverabilityAudit](EmailDeliverabilityAudit/) | Reviews email authentication and bounce-rate metadata | Yes |
+| [FrontendCSPAudit](FrontendCSPAudit/) | Audits browser Content Security Policy configuration | Yes |
 
 ## Getting started
 
