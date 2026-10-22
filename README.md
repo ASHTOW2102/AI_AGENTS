@@ -195,6 +195,18 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DatabaseMigrationSafetyAudit](DatabaseMigrationSafetyAudit/) | Reviews database migration recovery and lock-safety plans | Yes |
 | [CostAnomalyEvidenceAudit](CostAnomalyEvidenceAudit/) | Audits cloud-cost anomaly alerting and investigation records | Yes |
 | [BackupRestoreDrillAudit](BackupRestoreDrillAudit/) | Checks restore drill coverage, RTO, integrity, and evidence | Yes |
+| [DNSSECConfigAudit](DNSSECConfigAudit/) | Reviews DNSSEC signing and safe key rollover metadata | Yes |
+| [GraphQLAuthzAudit](GraphQLAuthzAudit/) | Checks GraphQL sensitive-field authorization coverage | Yes |
+| [BatchIdempotencyAudit](BatchIdempotencyAudit/) | Audits retryable batch jobs for duplicate-write safeguards | Yes |
+| [KubernetesNetworkPolicyAudit](KubernetesNetworkPolicyAudit/) | Reviews namespace default-deny network isolation | Yes |
+| [DataArchiveRetrievalAudit](DataArchiveRetrievalAudit/) | Checks archive retrieval procedures, timing, and ownership | Yes |
+| [EncryptionKeyUsageAudit](EncryptionKeyUsageAudit/) | Audits cryptographic key purpose, use, and export controls | Yes |
+| [LogIntegrityAudit](LogIntegrityAudit/) | Reviews centralized log tamper protection and retention | Yes |
+| [MobileBackupPrivacyAudit](MobileBackupPrivacyAudit/) | Checks sensitive app data and tokens in mobile backups | Yes |
+| [SLOAlertThresholdAudit](SLOAlertThresholdAudit/) | Compares alert thresholds with service-level objectives | Yes |
+| [DeploymentApprovalAudit](DeploymentApprovalAudit/) | Audits production deployment approval and review evidence | Yes |
+| [SearchRelevanceDriftAudit](SearchRelevanceDriftAudit/) | Checks search evaluation quality and segment coverage | Yes |
+| [LocalizationCoverageAudit](LocalizationCoverageAudit/) | Reviews locale string coverage and fallback risk | Yes |
 
 ## Getting started
 
