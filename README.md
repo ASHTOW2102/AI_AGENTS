@@ -222,6 +222,22 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CISecretExposureAudit](CISecretExposureAudit/) | Flags CI workflows that could expose credentials | Yes |
 | [EmailDeliverabilityAudit](EmailDeliverabilityAudit/) | Reviews email authentication and bounce-rate metadata | Yes |
 | [FrontendCSPAudit](FrontendCSPAudit/) | Audits browser Content Security Policy configuration | Yes |
+| [APISchemaEvolutionAudit](APISchemaEvolutionAudit/) | Checks API schema diffs for breaking evolution changes | Yes |
+| [CacheStampedeAudit](CacheStampedeAudit/) | Reviews cache miss coordination and stale fallback controls | Yes |
+| [KubernetesIngressTLSAudit](KubernetesIngressTLSAudit/) | Audits ingress TLS coverage and HTTPS enforcement | Yes |
+| [ModelPromptInjectionEvalAudit](ModelPromptInjectionEvalAudit/) | Reviews prompt-injection evaluation coverage and outcomes | Yes |
+| [MLFeatureFreshnessAudit](MLFeatureFreshnessAudit/) | Checks model feature freshness and quality thresholds | Yes |
+| [DataPipelineBackfillAudit](DataPipelineBackfillAudit/) | Reviews backfill chunking, checkpointing, and validation | Yes |
+| [ObjectLockRetentionAudit](ObjectLockRetentionAudit/) | Checks object-lock retention and bypass permissions | Yes |
+| [MobileCertificateTransparencyAudit](MobileCertificateTransparencyAudit/) | Reviews mobile certificate-transparency enforcement | Yes |
+| [SSHKeyRotationAudit](SSHKeyRotationAudit/) | Checks SSH key age, ownership, and revocation hygiene | Yes |
+| [ServerlessColdStartAudit](ServerlessColdStartAudit/) | Reviews function cold-start latency and mitigation coverage | Yes |
+| [SupplyChainAttestationAudit](SupplyChainAttestationAudit/) | Checks artifact attestation and trusted builder evidence | Yes |
+| [NotificationPreferenceAudit](NotificationPreferenceAudit/) | Audits notification consent and unsubscribe enforcement | Yes |
+| [RobotsIndexabilityAudit](RobotsIndexabilityAudit/) | Checks production crawler directives and sitemap readiness | Yes |
+| [InternationalPhoneValidationAudit](InternationalPhoneValidationAudit/) | Reviews phone validation, normalization, and recovery policies | Yes |
+| [ContainerRuntimeSeccompAudit](ContainerRuntimeSeccompAudit/) | Checks container seccomp and privilege restrictions | Yes |
+| [ProductionReadinessEvidenceAudit](ProductionReadinessEvidenceAudit/) | Checks release runbook, rollback, and recovery evidence | Yes |
 
 ## Getting started
 
