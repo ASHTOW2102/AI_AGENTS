@@ -238,6 +238,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [InternationalPhoneValidationAudit](InternationalPhoneValidationAudit/) | Reviews phone validation, normalization, and recovery policies | Yes |
 | [ContainerRuntimeSeccompAudit](ContainerRuntimeSeccompAudit/) | Checks container seccomp and privilege restrictions | Yes |
 | [ProductionReadinessEvidenceAudit](ProductionReadinessEvidenceAudit/) | Checks release runbook, rollback, and recovery evidence | Yes |
+| [ApiPaginationContractAudit](ApiPaginationContractAudit/) | Checks bounded API pagination and cursor consistency | Yes |
+| [BrowserCacheControlAudit](BrowserCacheControlAudit/) | Reviews browser and shared-cache rules for sensitive resources | Yes |
+| [KubernetesImagePullAudit](KubernetesImagePullAudit/) | Checks image version pinning and private-registry pull settings | Yes |
+| [LLMOutputSchemaAudit](LLMOutputSchemaAudit/) | Reviews model output validation and recovery safeguards | Yes |
+| [MFARecoveryAudit](MFARecoveryAudit/) | Checks MFA reset, backup-code, and recovery protections | Yes |
+| [RPORecoveryPointAudit](RPORecoveryPointAudit/) | Compares backup and replication evidence with RPO targets | Yes |
+| [DNSChangeSafetyAudit](DNSChangeSafetyAudit/) | Reviews DNS change rollback and propagation preparation | Yes |
+| [FeatureFlagTargetingAudit](FeatureFlagTargetingAudit/) | Checks rollout limits, cohort stability, and kill switches | Yes |
+| [PaymentWebhookReconciliationAudit](PaymentWebhookReconciliationAudit/) | Reviews payment webhook verification and ledger reconciliation | Yes |
+| [SQLTransactionSafetyAudit](SQLTransactionSafetyAudit/) | Checks transaction rollback, isolation, and lock budgets | Yes |
+| [CustomerExportSafetyAudit](CustomerExportSafetyAudit/) | Reviews authorization and delivery safeguards for data exports | Yes |
+| [MobileBiometricFallbackAudit](MobileBiometricFallbackAudit/) | Checks biometric failure fallback and local-data safeguards | Yes |
+| [SecretExpiryCoverageAudit](SecretExpiryCoverageAudit/) | Reviews secret expiry, rotation alerts, and ownership | Yes |
+| [QueueVisibilityTimeoutAudit](QueueVisibilityTimeoutAudit/) | Compares queue timeouts with processing and concurrency metrics | Yes |
+| [SearchIndexLagAudit](SearchIndexLagAudit/) | Checks search indexing freshness and failed-document metrics | Yes |
+| [TraceSamplingCoverageAudit](TraceSamplingCoverageAudit/) | Reviews trace sampling coverage and sensitive attributes | Yes |
+| [CloudIAMDriftAudit](CloudIAMDriftAudit/) | Compares cloud IAM permissions with role baselines | Yes |
+| [StorageReplicationAudit](StorageReplicationAudit/) | Checks object replication status, lag, and policy coverage | Yes |
+| [DataQualityDistributionAudit](DataQualityDistributionAudit/) | Reviews aggregate data drift and completeness statistics | Yes |
+| [DependencyLicenseCompatibilityAudit](DependencyLicenseCompatibilityAudit/) | Compares dependency licenses with allowed policy | Yes |
 
 ## Getting started
 
