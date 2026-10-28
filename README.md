@@ -258,6 +258,31 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [StorageReplicationAudit](StorageReplicationAudit/) | Checks object replication status, lag, and policy coverage | Yes |
 | [DataQualityDistributionAudit](DataQualityDistributionAudit/) | Reviews aggregate data drift and completeness statistics | Yes |
 | [DependencyLicenseCompatibilityAudit](DependencyLicenseCompatibilityAudit/) | Compares dependency licenses with allowed policy | Yes |
+| [APIIdempotencyContractAudit](APIIdempotencyContractAudit/) | Checks write endpoints for idempotency-key contracts | Yes |
+| [OAuthSessionLifecycleAudit](OAuthSessionLifecycleAudit/) | Reviews token rotation, revocation, and lifetime settings | Yes |
+| [RateLimitFairnessAudit](RateLimitFairnessAudit/) | Checks tenant fairness and noisy-neighbor protections | Yes |
+| [OpenTelemetryAttributeCardinalityAudit](OpenTelemetryAttributeCardinalityAudit/) | Reviews metric dimensions for cardinality growth risks | Yes |
+| [KubernetesReadinessProbeAudit](KubernetesReadinessProbeAudit/) | Checks workload probe configuration against startup timing | Yes |
+| [KubernetesResourceRequestAudit](KubernetesResourceRequestAudit/) | Audits container CPU and memory request/limit coverage | Yes |
+| [DBConnectionTLSAudit](DBConnectionTLSAudit/) | Reviews database client TLS and certificate verification | Yes |
+| [DataLineageCompletenessAudit](DataLineageCompletenessAudit/) | Checks dataset lineage source and consumer coverage | Yes |
+| [MLModelRollbackAudit](MLModelRollbackAudit/) | Reviews model artifact and schema rollback readiness | Yes |
+| [LLMEvalDatasetGovernanceAudit](LLMEvalDatasetGovernanceAudit/) | Checks evaluation dataset provenance and leakage controls | Yes |
+| [FileUploadMalwareScanAudit](FileUploadMalwareScanAudit/) | Reviews upload scanning and quarantine safeguards | Yes |
+| [WebhookReplayProtectionAudit](WebhookReplayProtectionAudit/) | Checks webhook timestamp and replay-window protections | Yes |
+| [PasswordResetAbuseAudit](PasswordResetAbuseAudit/) | Reviews password-reset throttling and token controls | Yes |
+| [TenantQuotaIsolationAudit](TenantQuotaIsolationAudit/) | Checks tenant quota enforcement and identity binding | Yes |
+| [CloudKMSKeyPolicyAudit](CloudKMSKeyPolicyAudit/) | Reviews managed-key rotation and permission separation | Yes |
+| [ObjectStoreLifecycleCoverageAudit](ObjectStoreLifecycleCoverageAudit/) | Checks object lifecycle cleanup and archive coverage | Yes |
+| [BackupScheduleCoverageAudit](BackupScheduleCoverageAudit/) | Audits backup schedule, interval, retention, and success | Yes |
+| [DisasterRecoveryExerciseAudit](DisasterRecoveryExerciseAudit/) | Checks recovery exercise freshness and scenario coverage | Yes |
+| [MobileClipboardPrivacyAudit](MobileClipboardPrivacyAudit/) | Reviews sensitive mobile clipboard exposure safeguards | Yes |
+| [WebSocketAuthRefreshAudit](WebSocketAuthRefreshAudit/) | Checks authentication renewal on long-lived connections | Yes |
+| [FrontendSourceMapExposureAudit](FrontendSourceMapExposureAudit/) | Reviews production source-map publishing controls | Yes |
+| [APIErrorDisclosureAudit](APIErrorDisclosureAudit/) | Checks API errors for stack traces and sensitive details | Yes |
+| [CronJobOverlapAudit](CronJobOverlapAudit/) | Reviews scheduler overlap and missed-run controls | Yes |
+| [EmailUnsubscribePropagationAudit](EmailUnsubscribePropagationAudit/) | Checks unsubscribe propagation across sender systems | Yes |
+| [BuildReproducibilityAudit](BuildReproducibilityAudit/) | Reviews build environment and artifact reproducibility evidence | Yes |
 
 ## Getting started
 
