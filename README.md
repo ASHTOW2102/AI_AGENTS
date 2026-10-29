@@ -283,6 +283,27 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CronJobOverlapAudit](CronJobOverlapAudit/) | Reviews scheduler overlap and missed-run controls | Yes |
 | [EmailUnsubscribePropagationAudit](EmailUnsubscribePropagationAudit/) | Checks unsubscribe propagation across sender systems | Yes |
 | [BuildReproducibilityAudit](BuildReproducibilityAudit/) | Reviews build environment and artifact reproducibility evidence | Yes |
+| [APICacheValidatorAudit](APICacheValidatorAudit/) | Reviews API validators and safe cache revalidation policy | Yes |
+| [GraphQLComplexityBudgetAudit](GraphQLComplexityBudgetAudit/) | Checks query depth, complexity, and batching limits | Yes |
+| [OAuthPKCEConfigAudit](OAuthPKCEConfigAudit/) | Reviews public-client PKCE and redirect validation settings | Yes |
+| [WebAuthnChallengeAudit](WebAuthnChallengeAudit/) | Checks challenge freshness and authenticator origin validation | Yes |
+| [KubernetesRolloutStrategyAudit](KubernetesRolloutStrategyAudit/) | Reviews rollout availability and rollback configuration | Yes |
+| [DatabaseIndexUsageAudit](DatabaseIndexUsageAudit/) | Checks index redundancy and unindexed critical query paths | Yes |
+| [QueueRetryBackoffAudit](QueueRetryBackoffAudit/) | Reviews retry bounds, backoff, jitter, and terminal handling | Yes |
+| [ServiceHealthDependencyAudit](ServiceHealthDependencyAudit/) | Checks health probes for downstream dependency coupling | Yes |
+| [CloudEgressDNSAudit](CloudEgressDNSAudit/) | Reviews outbound network scope, DNS controls, and logging | Yes |
+| [DataAnonymizationRiskAudit](DataAnonymizationRiskAudit/) | Checks de-identification and re-identification risk evidence | Yes |
+| [MLModelFairnessMonitorAudit](MLModelFairnessMonitorAudit/) | Reviews group performance monitoring and disparity thresholds | Yes |
+| [PaymentRefundReconciliationAudit](PaymentRefundReconciliationAudit/) | Checks refund provider status and ledger reconciliation | Yes |
+| [ObjectVersioningAudit](ObjectVersioningAudit/) | Reviews object versioning and deletion recovery safeguards | Yes |
+| [DNSFailoverHealthAudit](DNSFailoverHealthAudit/) | Checks DNS failover health checks and failback readiness | Yes |
+| [SaaSOffboardingAudit](SaaSOffboardingAudit/) | Reviews vendor account closure and data-return evidence | Yes |
+| [HSTSHeaderAudit](HSTSHeaderAudit/) | Checks HTTP Strict Transport Security policy coverage | Yes |
+| [APISunsetNoticeAudit](APISunsetNoticeAudit/) | Reviews API deprecation and sunset communication records | Yes |
+| [DataDeletionPipelineAudit](DataDeletionPipelineAudit/) | Checks deletion workers, retry paths, and completion evidence | Yes |
+| [APIResponseCompressionAudit](APIResponseCompressionAudit/) | Reviews response compression scope and secret-reflection risk | Yes |
+| [ContainerReadOnlyFilesystemAudit](ContainerReadOnlyFilesystemAudit/) | Checks container root filesystem and writable mount restrictions | Yes |
+| [PIIDataFlowMappingAudit](PIIDataFlowMappingAudit/) | Reviews personal-data purpose, destinations, and controls | Yes |
 
 ## Getting started
 
