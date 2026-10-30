@@ -304,6 +304,25 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [APIResponseCompressionAudit](APIResponseCompressionAudit/) | Reviews response compression scope and secret-reflection risk | Yes |
 | [ContainerReadOnlyFilesystemAudit](ContainerReadOnlyFilesystemAudit/) | Checks container root filesystem and writable mount restrictions | Yes |
 | [PIIDataFlowMappingAudit](PIIDataFlowMappingAudit/) | Reviews personal-data purpose, destinations, and controls | Yes |
+| [APISecurityHeadersAudit](APISecurityHeadersAudit/) | Checks required HTTP security headers and referrer policy | Yes |
+| [BrowserPermissionsPolicyAudit](BrowserPermissionsPolicyAudit/) | Reviews browser capability grants and iframe scoping | Yes |
+| [KubernetesAutoscalingStabilityAudit](KubernetesAutoscalingStabilityAudit/) | Checks autoscaler bounds, metrics, and backend capacity | Yes |
+| [DatabaseBackupConsistencyAudit](DatabaseBackupConsistencyAudit/) | Reviews snapshot consistency, integrity, and restore evidence | Yes |
+| [DataPartitionSkewAudit](DataPartitionSkewAudit/) | Checks aggregate partition size and workload skew | Yes |
+| [MLModelCalibrationAudit](MLModelCalibrationAudit/) | Reviews model calibration metrics and threshold evidence | Yes |
+| [LLMToolPermissionAudit](LLMToolPermissionAudit/) | Checks agent tool scope, approval, and audit logging | Yes |
+| [OAuthDeviceFlowAudit](OAuthDeviceFlowAudit/) | Reviews device-flow user-code and polling safeguards | Yes |
+| [SecretScopeConsistencyAudit](SecretScopeConsistencyAudit/) | Compares secret access scope with required workloads | Yes |
+| [CloudStorageEncryptionAudit](CloudStorageEncryptionAudit/) | Checks storage encryption defaults and key rotation | Yes |
+| [MultiRegionReadinessAudit](MultiRegionReadinessAudit/) | Reviews failover region coverage and switching evidence | Yes |
+| [IncidentEvidenceCompletenessAudit](IncidentEvidenceCompletenessAudit/) | Checks incident timeline, impact, and follow-up evidence | Yes |
+| [APIWebhookSignatureRotationAudit](APIWebhookSignatureRotationAudit/) | Reviews webhook signing-secret age and rotation safeguards | Yes |
+| [QueueConsumerConcurrencyAudit](QueueConsumerConcurrencyAudit/) | Checks queue worker concurrency and ordering limits | Yes |
+| [MobileOfflineDataAudit](MobileOfflineDataAudit/) | Reviews mobile offline cache and local-data controls | Yes |
+| [BuildCacheIntegrityAudit](BuildCacheIntegrityAudit/) | Checks build-cache isolation and artifact integrity controls | Yes |
+| [NetworkMTUPathAudit](NetworkMTUPathAudit/) | Reviews path MTU assumptions and fragmentation evidence | Yes |
+| [DataRetentionExceptionAudit](DataRetentionExceptionAudit/) | Checks retention exception approval, scope, and expiry | Yes |
+| [ServiceOwnershipFreshnessAudit](ServiceOwnershipFreshnessAudit/) | Reviews service ownership records and on-call route freshness | Yes |
 
 ## Getting started
 
