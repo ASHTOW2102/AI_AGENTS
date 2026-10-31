@@ -323,6 +323,32 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [NetworkMTUPathAudit](NetworkMTUPathAudit/) | Reviews path MTU assumptions and fragmentation evidence | Yes |
 | [DataRetentionExceptionAudit](DataRetentionExceptionAudit/) | Checks retention exception approval, scope, and expiry | Yes |
 | [ServiceOwnershipFreshnessAudit](ServiceOwnershipFreshnessAudit/) | Reviews service ownership records and on-call route freshness | Yes |
+| [APIContentLengthAudit](APIContentLengthAudit/) | Checks API request and response content-length bounds | Yes |
+| [APIAuthzMatrixAudit](APIAuthzMatrixAudit/) | Reviews route authentication and operation-level authorization | Yes |
+| [OpenRedirectAudit](OpenRedirectAudit/) | Checks redirect destination and scheme validation | Yes |
+| [KubernetesSecretMountAudit](KubernetesSecretMountAudit/) | Reviews workload secret mount scope and write access | Yes |
+| [DatabasePoolSaturationAudit](DatabasePoolSaturationAudit/) | Checks pool utilization, waiting requests, and connection budgets | Yes |
+| [DataSchemaNullabilityAudit](DataSchemaNullabilityAudit/) | Reviews required-field nullability and null-rate changes | Yes |
+| [MLDriftAlertCoverageAudit](MLDriftAlertCoverageAudit/) | Checks model drift metrics, thresholds, and response alerts | Yes |
+| [LLMRetrievalCitationAudit](LLMRetrievalCitationAudit/) | Reviews source citation coverage for retrieval-grounded answers | Yes |
+| [PromptDataLeakageAudit](PromptDataLeakageAudit/) | Checks prompt flows for sensitive-data exposure risks | Yes |
+| [CloudSnapshotPublicAccessAudit](CloudSnapshotPublicAccessAudit/) | Reviews snapshot sharing, encryption, and cleanup metadata | Yes |
+| [TLSCertificateChainExpiryAudit](TLSCertificateChainExpiryAudit/) | Checks certificate expiry and chain validation evidence | Yes |
+| [MobileAppTransportSecurityAudit](MobileAppTransportSecurityAudit/) | Reviews mobile cleartext and certificate-trust exceptions | Yes |
+| [SAMLAssertionAudit](SAMLAssertionAudit/) | Checks SAML signature, audience, recipient, and replay validation | Yes |
+| [OIDCNonceStateAudit](OIDCNonceStateAudit/) | Reviews OIDC state, nonce, and PKCE flow validation | Yes |
+| [SFTPKeyAuthAudit](SFTPKeyAuthAudit/) | Checks SFTP host-key verification and key-use policy | Yes |
+| [DockerBuildContextAudit](DockerBuildContextAudit/) | Reviews container build context size and secret exclusion | Yes |
+| [PackageLockDriftAudit](PackageLockDriftAudit/) | Checks installed package versions against lockfile metadata | Yes |
+| [BackupRestorePermissionsAudit](BackupRestorePermissionsAudit/) | Reviews restore access scope and separation of duties | Yes |
+| [QueueOrderingGuaranteeAudit](QueueOrderingGuaranteeAudit/) | Checks queue partitioning and ordered processing safeguards | Yes |
+| [EventSchemaEvolutionAudit](EventSchemaEvolutionAudit/) | Reviews event schema changes for consumer compatibility | Yes |
+| [DataLakePartitionPruningAudit](DataLakePartitionPruningAudit/) | Checks analytics query partition filters and scan budgets | Yes |
+| [APIKeyExposureScanAudit](APIKeyExposureScanAudit/) | Reviews secret-scan coverage and active findings metadata | Yes |
+| [ServiceDependencySLOAudit](ServiceDependencySLOAudit/) | Compares dependency SLOs and timeouts with service requirements | Yes |
+| [NetworkIngressAllowlistAudit](NetworkIngressAllowlistAudit/) | Checks ingress source scope and public admin ports | Yes |
+| [KubernetesNodeDrainReadinessAudit](KubernetesNodeDrainReadinessAudit/) | Reviews node-drain disruption budgets and storage safeguards | Yes |
+| [DataSubjectRequestSLAAudit](DataSubjectRequestSLAAudit/) | Checks request deadlines, ownership, and closure evidence | Yes |
 
 ## Getting started
 
