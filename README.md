@@ -349,6 +349,34 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [NetworkIngressAllowlistAudit](NetworkIngressAllowlistAudit/) | Checks ingress source scope and public admin ports | Yes |
 | [KubernetesNodeDrainReadinessAudit](KubernetesNodeDrainReadinessAudit/) | Reviews node-drain disruption budgets and storage safeguards | Yes |
 | [DataSubjectRequestSLAAudit](DataSubjectRequestSLAAudit/) | Checks request deadlines, ownership, and closure evidence | Yes |
+| [CDNCachePurgeAudit](CDNCachePurgeAudit/) | Checks CDN purge coverage, propagation, and scope approval | Yes |
+| [ServiceMeshMTLSAudit](ServiceMeshMTLSAudit/) | Checks mesh mTLS enforcement and certificate rotation | Yes |
+| [SchemaDriftAudit](SchemaDriftAudit/) | Compares live table schemas with declared data-model definitions | Yes |
+| [ChaosEngineeringReadinessAudit](ChaosEngineeringReadinessAudit/) | Checks chaos-experiment blast radius and rollback readiness | Yes |
+| [CostAllocationTaggingAudit](CostAllocationTaggingAudit/) | Checks resource tagging completeness for cost allocation | Yes |
+| [SLACreditCalculationAudit](SLACreditCalculationAudit/) | Checks SLA breach detection and credit calculation evidence | Yes |
+| [ContainerImageCVEAudit](ContainerImageCVEAudit/) | Checks image vulnerability scan severity and scan freshness | Yes |
+| [WAFRuleCoverageAudit](WAFRuleCoverageAudit/) | Checks WAF mode, required rule sets, and exception review | Yes |
+| [LogRetentionComplianceAudit](LogRetentionComplianceAudit/) | Checks log retention duration against compliance requirements | Yes |
+| [GitSecretHistoryAudit](GitSecretHistoryAudit/) | Checks git-history secret scans for rotation and remediation | Yes |
+| [EmailAuthAlignmentAudit](EmailAuthAlignmentAudit/) | Checks SPF, DKIM, and DMARC alignment for a sending domain | Yes |
+| [ServerlessTimeoutBudgetAudit](ServerlessTimeoutBudgetAudit/) | Checks function timeout budgets against downstream calls | Yes |
+| [GPUUtilizationAudit](GPUUtilizationAudit/) | Checks GPU utilization, idle time, and OOM events | Yes |
+| [DataCatalogCompletenessAudit](DataCatalogCompletenessAudit/) | Checks catalog entries for description, owner, and classification | Yes |
+| [ConsentBannerAudit](ConsentBannerAudit/) | Checks cookie-consent banner default state and granularity | Yes |
+| [APIVersionDeprecationHeaderAudit](APIVersionDeprecationHeaderAudit/) | Checks deprecated responses for Deprecation/Sunset headers | Yes |
+| [CrossRegionBackupAudit](CrossRegionBackupAudit/) | Checks cross-region backup replication and restore testing | Yes |
+| [IAMBreakGlassAudit](IAMBreakGlassAudit/) | Checks break-glass account alerting, expiry, and usage review | Yes |
+| [NetworkSegmentationAudit](NetworkSegmentationAudit/) | Checks cross-zone network paths for unapproved access | Yes |
+| [TLSMinVersionAudit](TLSMinVersionAudit/) | Checks minimum negotiated TLS version and weak ciphers | Yes |
+| [WebhookEndpointTLSAudit](WebhookEndpointTLSAudit/) | Checks webhook destinations for TLS and certificate validation | Yes |
+| [APIGatewayThrottleAudit](APIGatewayThrottleAudit/) | Checks gateway throttling for per-client fairness | Yes |
+| [ServiceMeshRetryBudgetAudit](ServiceMeshRetryBudgetAudit/) | Checks mesh retry budgets and idempotency safety | Yes |
+| [FeatureStoreAccessControlAudit](FeatureStoreAccessControlAudit/) | Checks feature-store consumer access against approvals | Yes |
+| [ModelRegistryGovernanceAudit](ModelRegistryGovernanceAudit/) | Checks model-registry approval, lineage, and evaluation evidence | Yes |
+| [ETLBatchSchedulingAudit](ETLBatchSchedulingAudit/) | Checks ETL job scheduling for overlap and dependency ordering | Yes |
+| [GDPRDataMappingAudit](GDPRDataMappingAudit/) | Checks personal-data processing records for legal basis and transfers | Yes |
+| [SOC2EvidenceAudit](SOC2EvidenceAudit/) | Checks SOC 2 control evidence freshness and testing completeness | Yes |
 
 ## Getting started
 
