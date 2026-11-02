@@ -377,6 +377,23 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ETLBatchSchedulingAudit](ETLBatchSchedulingAudit/) | Checks ETL job scheduling for overlap and dependency ordering | Yes |
 | [GDPRDataMappingAudit](GDPRDataMappingAudit/) | Checks personal-data processing records for legal basis and transfers | Yes |
 | [SOC2EvidenceAudit](SOC2EvidenceAudit/) | Checks SOC 2 control evidence freshness and testing completeness | Yes |
+| [StaticAssetVersioningAudit](StaticAssetVersioningAudit/) | Checks static asset cache-busting and immutable cache headers | Yes |
+| [APIBatchRequestAudit](APIBatchRequestAudit/) | Checks batch endpoint size limits and partial-failure reporting | Yes |
+| [DatabaseConnectionLeakAudit](DatabaseConnectionLeakAudit/) | Checks connection pool metrics for leaked or long-held connections | Yes |
+| [MobilePushTokenAudit](MobilePushTokenAudit/) | Checks push-token staleness and logout revocation handling | Yes |
+| [KubernetesTaintTolerationAudit](KubernetesTaintTolerationAudit/) | Checks workload tolerations for overly broad node scheduling | Yes |
+| [APIClientSDKVersionAudit](APIClientSDKVersionAudit/) | Checks client SDK version adoption against deprecation policy | Yes |
+| [DataWarehouseCostAudit](DataWarehouseCostAudit/) | Checks warehouse compute spend against idle time and scan volume | Yes |
+| [WebhookRateLimitAudit](WebhookRateLimitAudit/) | Checks outbound webhook rate limits and receiver backoff handling | Yes |
+| [ContainerNonRootUserAudit](ContainerNonRootUserAudit/) | Checks containers for root-user execution and privilege escalation | Yes |
+| [APICursorStabilityAudit](APICursorStabilityAudit/) | Checks cursor pagination stability under concurrent writes | Yes |
+| [BackupKeyEscrowAudit](BackupKeyEscrowAudit/) | Checks backup-encryption key escrow access and logging | Yes |
+| [DatabaseReadReplicaConsistencyAudit](DatabaseReadReplicaConsistencyAudit/) | Checks replica lag against read-after-write consistency needs | Yes |
+| [LoadTestCoverageAudit](LoadTestCoverageAudit/) | Checks load-test recency and coverage against peak-traffic targets | Yes |
+| [ThirdPartyScriptIntegrityAudit](ThirdPartyScriptIntegrityAudit/) | Checks third-party scripts for subresource integrity hashes | Yes |
+| [ContainerPrivilegedModeAudit](ContainerPrivilegedModeAudit/) | Checks containers for privileged mode and host-namespace sharing | Yes |
+| [SessionFixationAudit](SessionFixationAudit/) | Checks session-ID rotation on login and privilege change | Yes |
+| [APIRequestIDPropagationAudit](APIRequestIDPropagationAudit/) | Checks request-ID propagation across service hops | Yes |
 
 ## Getting started
 
