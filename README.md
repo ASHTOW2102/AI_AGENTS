@@ -394,6 +394,24 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ContainerPrivilegedModeAudit](ContainerPrivilegedModeAudit/) | Checks containers for privileged mode and host-namespace sharing | Yes |
 | [SessionFixationAudit](SessionFixationAudit/) | Checks session-ID rotation on login and privilege change | Yes |
 | [APIRequestIDPropagationAudit](APIRequestIDPropagationAudit/) | Checks request-ID propagation across service hops | Yes |
+| [GraphQLPersistedQueryAudit](GraphQLPersistedQueryAudit/) | Checks persisted-query allowlisting and introspection exposure | Yes |
+| [APIFieldMaskAudit](APIFieldMaskAudit/) | Checks field-mask defaults for sensitive-field over-fetching | Yes |
+| [DatabaseShardRebalanceAudit](DatabaseShardRebalanceAudit/) | Checks shard size and traffic skew and rebalance throttling | Yes |
+| [KubernetesPodAntiAffinityAudit](KubernetesPodAntiAffinityAudit/) | Checks pod anti-affinity and zone spread for critical workloads | Yes |
+| [MobileAppLinkVerificationAudit](MobileAppLinkVerificationAudit/) | Checks universal/app-link domain verification against hijacking | Yes |
+| [CloudCostBudgetAlertAudit](CloudCostBudgetAlertAudit/) | Checks cost-budget alert thresholds, recipients, and forecasts | Yes |
+| [WebhookDeadLetterAudit](WebhookDeadLetterAudit/) | Checks webhook dead-letter storage, alerting, and backlog age | Yes |
+| [ContainerBaseImageFreshnessAudit](ContainerBaseImageFreshnessAudit/) | Checks base-image age, digest pinning, and patch currency | Yes |
+| [APIVersionNegotiationAudit](APIVersionNegotiationAudit/) | Checks explicit version opt-in and safe default behavior | Yes |
+| [DataExportEncryptionAudit](DataExportEncryptionAudit/) | Checks data-export encryption and secure key/transfer handling | Yes |
+| [BackupCatalogCompletenessAudit](BackupCatalogCompletenessAudit/) | Checks backup catalog for untracked stores and missing schedules | Yes |
+| [ServiceCircuitBreakerFallbackAudit](ServiceCircuitBreakerFallbackAudit/) | Checks circuit-breaker fallback safety and staleness signaling | Yes |
+| [SearchQueryLoggingPrivacyAudit](SearchQueryLoggingPrivacyAudit/) | Checks search-query logs for PII redaction and retention limits | Yes |
+| [FeatureExperimentSampleRatioAudit](FeatureExperimentSampleRatioAudit/) | Checks A/B sample-ratio mismatch and experiment duration | Yes |
+| [LLMContextWindowBudgetAudit](LLMContextWindowBudgetAudit/) | Checks prompt token budgets against model context limits | Yes |
+| [TokenRevocationPropagationAudit](TokenRevocationPropagationAudit/) | Checks revoked-token propagation speed across validators | Yes |
+| [NetworkProxyAllowlistAudit](NetworkProxyAllowlistAudit/) | Checks outbound proxy allowlist scope and staleness | Yes |
+| [DatabaseDeadlockRetryAudit](DatabaseDeadlockRetryAudit/) | Checks deadlock retry bounds, backoff, and deadlock rate | Yes |
 
 ## Getting started
 
