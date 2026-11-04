@@ -412,6 +412,25 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [TokenRevocationPropagationAudit](TokenRevocationPropagationAudit/) | Checks revoked-token propagation speed across validators | Yes |
 | [NetworkProxyAllowlistAudit](NetworkProxyAllowlistAudit/) | Checks outbound proxy allowlist scope and staleness | Yes |
 | [DatabaseDeadlockRetryAudit](DatabaseDeadlockRetryAudit/) | Checks deadlock retry bounds, backoff, and deadlock rate | Yes |
+| [APIResponseSchemaValidationAudit](APIResponseSchemaValidationAudit/) | Checks responses are validated against a declared schema | Yes |
+| [KubernetesLivenessProbeAudit](KubernetesLivenessProbeAudit/) | Checks liveness probes for restart-loop and startup-race risk | Yes |
+| [DatabaseSequenceExhaustionAudit](DatabaseSequenceExhaustionAudit/) | Checks primary-key sequence exhaustion against data-type range | Yes |
+| [MobileAppStoreReviewPermissionAudit](MobileAppStoreReviewPermissionAudit/) | Checks requested app permissions against declared purpose | Yes |
+| [CloudNATGatewayAudit](CloudNATGatewayAudit/) | Checks NAT gateway port capacity and redundancy | Yes |
+| [WebhookPayloadSizeAudit](WebhookPayloadSizeAudit/) | Checks webhook payload size against receiver limits | Yes |
+| [ContainerSBOMAttachmentAudit](ContainerSBOMAttachmentAudit/) | Checks images for attached, signed, current SBOM attestations | Yes |
+| [APIBackwardCompatibilityTestAudit](APIBackwardCompatibilityTestAudit/) | Checks releases for automated backward-compatibility testing | Yes |
+| [DataMaskingCoverageAudit](DataMaskingCoverageAudit/) | Checks non-production environments for sensitive-field masking | Yes |
+| [BackupVerificationChecksumAudit](BackupVerificationChecksumAudit/) | Checks backups for write-time checksums and restore verification | Yes |
+| [ServiceMeshTrafficSplitAudit](ServiceMeshTrafficSplitAudit/) | Checks weighted traffic splits and canary rollback triggers | Yes |
+| [SearchAutocompleteDataLeakAudit](SearchAutocompleteDataLeakAudit/) | Checks autocomplete for cross-user and privileged data leakage | Yes |
+| [FeatureFlagKillSwitchLatencyAudit](FeatureFlagKillSwitchLatencyAudit/) | Checks kill-switch propagation latency and test evidence | Yes |
+| [LLMPromptInjectionDefenseAudit](LLMPromptInjectionDefenseAudit/) | Checks pipelines for prompt-injection defenses on untrusted input | Yes |
+| [TokenAudienceValidationAudit](TokenAudienceValidationAudit/) | Checks services validate token audience to block cross-service replay | Yes |
+| [NetworkDNSResolverFailoverAudit](NetworkDNSResolverFailoverAudit/) | Checks DNS resolver redundancy and failover testing | Yes |
+| [DatabaseLongRunningQueryAudit](DatabaseLongRunningQueryAudit/) | Checks long-running queries for timeouts and lock contention | Yes |
+| [APIClientErrorRetryStormAudit](APIClientErrorRetryStormAudit/) | Checks client retry logic for storm risk during outages | Yes |
+| [ServerlessConcurrencyLimitAudit](ServerlessConcurrencyLimitAudit/) | Checks function concurrency limits against downstream capacity | Yes |
 
 ## Getting started
 
