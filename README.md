@@ -431,6 +431,27 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DatabaseLongRunningQueryAudit](DatabaseLongRunningQueryAudit/) | Checks long-running queries for timeouts and lock contention | Yes |
 | [APIClientErrorRetryStormAudit](APIClientErrorRetryStormAudit/) | Checks client retry logic for storm risk during outages | Yes |
 | [ServerlessConcurrencyLimitAudit](ServerlessConcurrencyLimitAudit/) | Checks function concurrency limits against downstream capacity | Yes |
+| [APIHATEOASLinkAudit](APIHATEOASLinkAudit/) | Checks hypermedia action links for validity and signing | Yes |
+| [KubernetesConfigMapDriftAudit](KubernetesConfigMapDriftAudit/) | Checks live ConfigMap values against declared manifest source | Yes |
+| [DatabaseForeignKeyIntegrityAudit](DatabaseForeignKeyIntegrityAudit/) | Checks foreign-key enforcement and orphaned-row risk | Yes |
+| [MobileCrashReportingPrivacyAudit](MobileCrashReportingPrivacyAudit/) | Checks crash reports for personal data before vendor transmission | Yes |
+| [CloudLoadBalancerHealthCheckAudit](CloudLoadBalancerHealthCheckAudit/) | Checks health-check configuration for false-positive ejection risk | Yes |
+| [WebhookEventOrderingAudit](WebhookEventOrderingAudit/) | Checks webhook delivery ordering guarantees and reorder handling | Yes |
+| [ContainerLayerCacheAudit](ContainerLayerCacheAudit/) | Checks build layer ordering for cache inefficiency and secret leakage | Yes |
+| [APIThrottleResponseHeaderAudit](APIThrottleResponseHeaderAudit/) | Checks rate-limited responses for standard throttle headers | Yes |
+| [DataPipelineLineageGapAudit](DataPipelineLineageGapAudit/) | Checks ETL stages for lineage-tracking gaps on output datasets | Yes |
+| [BackupRetentionLegalHoldAudit](BackupRetentionLegalHoldAudit/) | Checks legal-hold backups are excluded from scheduled deletion | Yes |
+| [ServiceMeshOutlierDetectionAudit](ServiceMeshOutlierDetectionAudit/) | Checks outlier ejection thresholds and full-outage risk | Yes |
+| [SearchRankingBiasAudit](SearchRankingBiasAudit/) | Checks search ranking for source dominance and sponsorship disclosure | Yes |
+| [FeatureFlagDependencyAudit](FeatureFlagDependencyAudit/) | Checks feature-flag dependency chains for cycles and safe ordering | Yes |
+| [LLMHallucinationGuardrailAudit](LLMHallucinationGuardrailAudit/) | Checks answer pipelines for groundedness and uncertainty signaling | Yes |
+| [TokenBindingAudit](TokenBindingAudit/) | Checks bearer tokens for device/client binding against replay | Yes |
+| [NetworkBGPRouteLeakAudit](NetworkBGPRouteLeakAudit/) | Checks BGP advertisements for internal-prefix leaks to peers | Yes |
+| [DatabaseConnectionStringExposureAudit](DatabaseConnectionStringExposureAudit/) | Checks for plaintext connection strings in source, logs, or config | Yes |
+| [APIGraphQLDepthLimitAudit](APIGraphQLDepthLimitAudit/) | Checks GraphQL schemas for query-depth and field-count limits | Yes |
+| [ServerlessVendorLockinAudit](ServerlessVendorLockinAudit/) | Checks serverless services for proprietary migration-blocking coupling | Yes |
+| [ContainerResourceLimitEnforcementAudit](ContainerResourceLimitEnforcementAudit/) | Checks namespaces for default resource limits and quotas | Yes |
+| [MobileDeviceAttestationAudit](MobileDeviceAttestationAudit/) | Checks sensitive operations for device-attestation enforcement | Yes |
 
 ## Getting started
 
