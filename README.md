@@ -452,6 +452,25 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [ServerlessVendorLockinAudit](ServerlessVendorLockinAudit/) | Checks serverless services for proprietary migration-blocking coupling | Yes |
 | [ContainerResourceLimitEnforcementAudit](ContainerResourceLimitEnforcementAudit/) | Checks namespaces for default resource limits and quotas | Yes |
 | [MobileDeviceAttestationAudit](MobileDeviceAttestationAudit/) | Checks sensitive operations for device-attestation enforcement | Yes |
+| [ContainerImageSignatureExpiryAudit](ContainerImageSignatureExpiryAudit/) | Checks container image signing certificates for expiry and missing verification | Yes |
+| [APISchemaVersionSkewAudit](APISchemaVersionSkewAudit/) | Detects schema version skew between API producers and consumers | Yes |
+| [CDNCacheInvalidationAudit](CDNCacheInvalidationAudit/) | Audits CDN cache invalidation coverage and propagation delay | Yes |
+| [DatabaseIndexBloatAudit](DatabaseIndexBloatAudit/) | Flags database indexes with excessive bloat ratio | Yes |
+| [KubernetesPodDisruptionBudgetAudit](KubernetesPodDisruptionBudgetAudit/) | Checks Kubernetes workloads for missing PodDisruptionBudgets | Yes |
+| [MobileAppPermissionCreepAudit](MobileAppPermissionCreepAudit/) | Audits mobile app permission requests for scope creep | Yes |
+| [CloudCostAnomalyAudit](CloudCostAnomalyAudit/) | Detects anomalous cloud spend spikes relative to baselines | Yes |
+| [WebhookRetryStormAudit](WebhookRetryStormAudit/) | Flags webhook delivery configurations prone to retry storms | Yes |
+| [APIRateLimitBypassAudit](APIRateLimitBypassAudit/) | Detects API endpoints where rate limiting can be bypassed | Yes |
+| [DataPipelineSchemaDriftAudit](DataPipelineSchemaDriftAudit/) | Flags pipelines where upstream schema drift is not caught | Yes |
+| [BackupEncryptionKeyRotationAudit](BackupEncryptionKeyRotationAudit/) | Checks backup encryption keys for overdue rotation | Yes |
+| [ServiceMeshMTLSCoverageAudit](ServiceMeshMTLSCoverageAudit/) | Audits service mesh traffic for gaps in mTLS coverage | Yes |
+| [SearchIndexFreshnessAudit](SearchIndexFreshnessAudit/) | Flags search indexes with stale documents beyond acceptable lag | Yes |
+| [FeatureFlagKillSwitchAudit](FeatureFlagKillSwitchAudit/) | Checks that risky feature flags have a tested kill switch | Yes |
+| [LLMPromptInjectionAudit](LLMPromptInjectionAudit/) | Flags LLM pipelines lacking isolation of untrusted content | Yes |
+| [TokenRevocationLatencyAudit](TokenRevocationLatencyAudit/) | Measures revoked-token propagation delay in validation caches | Yes |
+| [NetworkDNSZoneTransferAudit](NetworkDNSZoneTransferAudit/) | Checks DNS servers for unrestricted zone transfer exposure | Yes |
+| [DatabaseQueryTimeoutAudit](DatabaseQueryTimeoutAudit/) | Flags database queries with no statement timeout | Yes |
+| [APIVersionDeprecationAudit](APIVersionDeprecationAudit/) | Audits deprecated API versions still receiving traffic | Yes |
 
 ## Getting started
 
