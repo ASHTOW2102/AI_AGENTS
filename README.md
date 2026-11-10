@@ -471,6 +471,23 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [NetworkDNSZoneTransferAudit](NetworkDNSZoneTransferAudit/) | Checks DNS servers for unrestricted zone transfer exposure | Yes |
 | [DatabaseQueryTimeoutAudit](DatabaseQueryTimeoutAudit/) | Flags database queries with no statement timeout | Yes |
 | [APIVersionDeprecationAudit](APIVersionDeprecationAudit/) | Audits deprecated API versions still receiving traffic | Yes |
+| [APIIdempotencyKeyReuseAudit](APIIdempotencyKeyReuseAudit/) | Flags idempotency keys reused across different request bodies | Yes |
+| [CloudStorageBucketVersioningAudit](CloudStorageBucketVersioningAudit/) | Checks cloud storage buckets for disabled versioning | Yes |
+| [ContainerSeccompProfileAudit](ContainerSeccompProfileAudit/) | Audits containers for missing or permissive seccomp profiles | Yes |
+| [DatabaseReplicationLagAlertAudit](DatabaseReplicationLagAlertAudit/) | Checks replication lag has alerting and acceptable bounds | Yes |
+| [KubernetesNetworkPolicyGapAudit](KubernetesNetworkPolicyGapAudit/) | Flags namespaces with no default-deny NetworkPolicy | Yes |
+| [MobileScreenRecordingDetectionAudit](MobileScreenRecordingDetectionAudit/) | Checks apps detect screen recording during sensitive display | Yes |
+| [ServerlessColdStartBudgetAudit](ServerlessColdStartBudgetAudit/) | Flags functions whose cold-start latency exceeds budget | Yes |
+| [WebAppCSPReportOnlyAudit](WebAppCSPReportOnlyAudit/) | Flags apps stuck in CSP report-only mode without enforcement | Yes |
+| [APIBulkExportThrottleAudit](APIBulkExportThrottleAudit/) | Checks bulk export endpoints for row-count throttling | Yes |
+| [DataWarehousePIIColumnTagAudit](DataWarehousePIIColumnTagAudit/) | Flags untagged PII columns in data warehouse tables | Yes |
+| [BackupChecksumVerificationAudit](BackupChecksumVerificationAudit/) | Checks backups have post-write checksum verification | Yes |
+| [ServiceMeshCircuitBreakerTuningAudit](ServiceMeshCircuitBreakerTuningAudit/) | Audits mesh circuit breaker thresholds for permissive defaults | Yes |
+| [SearchAutocompleteInjectionAudit](SearchAutocompleteInjectionAudit/) | Flags autocomplete endpoints reflecting unsanitized input | Yes |
+| [FeatureFlagStaleCleanupAudit](FeatureFlagStaleCleanupAudit/) | Flags fully-rolled-out flags overdue for code cleanup | Yes |
+| [LLMContextWindowOverflowAudit](LLMContextWindowOverflowAudit/) | Flags LLM requests that silently truncate overflowing context | Yes |
+| [TokenAudienceMismatchAudit](TokenAudienceMismatchAudit/) | Flags tokens whose audience claim mismatches the service | Yes |
+| [NetworkEgressAllowlistAudit](NetworkEgressAllowlistAudit/) | Flags workloads with unrestricted outbound egress | Yes |
 
 ## Getting started
 
