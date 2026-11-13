@@ -488,6 +488,25 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LLMContextWindowOverflowAudit](LLMContextWindowOverflowAudit/) | Flags LLM requests that silently truncate overflowing context | Yes |
 | [TokenAudienceMismatchAudit](TokenAudienceMismatchAudit/) | Flags tokens whose audience claim mismatches the service | Yes |
 | [NetworkEgressAllowlistAudit](NetworkEgressAllowlistAudit/) | Flags workloads with unrestricted outbound egress | Yes |
+| [APIResponseCachePoisoningAudit](APIResponseCachePoisoningAudit/) | Flags endpoints at risk of cache poisoning from unkeyed inputs | Yes |
+| [CloudIAMUnusedRoleAudit](CloudIAMUnusedRoleAudit/) | Flags IAM roles unused for an extended period | Yes |
+| [ContainerRootlessRuntimeAudit](ContainerRootlessRuntimeAudit/) | Checks containers run under a rootless runtime configuration | Yes |
+| [DatabaseLongRunningTransactionAudit](DatabaseLongRunningTransactionAudit/) | Flags transactions open longer than acceptable | Yes |
+| [KubernetesAdmissionWebhookTimeoutAudit](KubernetesAdmissionWebhookTimeoutAudit/) | Flags admission webhooks risking cluster-wide blocking | Yes |
+| [MobileAppClipboardLeakAudit](MobileAppClipboardLeakAudit/) | Flags apps copying sensitive data to clipboard without expiry | Yes |
+| [ServerlessEventSourceThrottleAudit](ServerlessEventSourceThrottleAudit/) | Flags event source mappings lacking concurrency throttles | Yes |
+| [WebAppSubresourceIntegrityAudit](WebAppSubresourceIntegrityAudit/) | Flags pages loading third-party scripts without SRI hashes | Yes |
+| [APIPaginationCursorTamperAudit](APIPaginationCursorTamperAudit/) | Flags paginated endpoints with unsigned, tamperable cursors | Yes |
+| [DataLakeAccessLoggingAudit](DataLakeAccessLoggingAudit/) | Flags data lakes with object-level access logging disabled | Yes |
+| [BackupCrossRegionReplicationAudit](BackupCrossRegionReplicationAudit/) | Flags backups without cross-region replication | Yes |
+| [ServiceMeshTrafficMirroringAudit](ServiceMeshTrafficMirroringAudit/) | Flags traffic mirroring that forwards unsanitized prod payloads | Yes |
+| [SearchRelevanceFeedbackLoopAudit](SearchRelevanceFeedbackLoopAudit/) | Flags ranking systems training on clicks without bias correction | Yes |
+| [FeatureFlagExperimentBiasAudit](FeatureFlagExperimentBiasAudit/) | Flags experiments with sample-ratio mismatch or bad randomization | Yes |
+| [LLMToolCallValidationAudit](LLMToolCallValidationAudit/) | Flags agent pipelines executing tool calls without schema validation | Yes |
+| [TokenReplayWindowAudit](TokenReplayWindowAudit/) | Flags tokens with a replay window too large for their validity | Yes |
+| [NetworkASNReputationAudit](NetworkASNReputationAudit/) | Flags inbound connections from low-reputation ASNs that bypass blocking | Yes |
+| [DatabaseColumnEncryptionCoverageAudit](DatabaseColumnEncryptionCoverageAudit/) | Flags sensitive columns not covered by column-level encryption | Yes |
+| [APIConsumerVersionSkewAudit](APIConsumerVersionSkewAudit/) | Flags consumers pinned to deprecated client versions | Yes |
 
 ## Getting started
 
