@@ -507,6 +507,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [NetworkASNReputationAudit](NetworkASNReputationAudit/) | Flags inbound connections from low-reputation ASNs that bypass blocking | Yes |
 | [DatabaseColumnEncryptionCoverageAudit](DatabaseColumnEncryptionCoverageAudit/) | Flags sensitive columns not covered by column-level encryption | Yes |
 | [APIConsumerVersionSkewAudit](APIConsumerVersionSkewAudit/) | Flags consumers pinned to deprecated client versions | Yes |
+| [APIRequestSmugglingAudit](APIRequestSmugglingAudit/) | Flags endpoints vulnerable to request smuggling | Yes |
+| [CloudSnapshotEncryptionAudit](CloudSnapshotEncryptionAudit/) | Flags unencrypted or stale-key disk snapshots | Yes |
+| [ContainerCapabilityDropAudit](ContainerCapabilityDropAudit/) | Checks containers drop unnecessary Linux capabilities | Yes |
+| [DatabasePartitionPruningAudit](DatabasePartitionPruningAudit/) | Flags queries on partitioned tables that skip pruning | Yes |
+| [KubernetesSecretRotationAudit](KubernetesSecretRotationAudit/) | Flags secrets overdue for rotation with no automation | Yes |
+| [MobileAppRootDetectionAudit](MobileAppRootDetectionAudit/) | Checks apps detect rooted or jailbroken devices | Yes |
+| [ServerlessIAMOverPermissionAudit](ServerlessIAMOverPermissionAudit/) | Flags function roles granting broader permissions than used | Yes |
+| [WebAppClickjackingAudit](WebAppClickjackingAudit/) | Flags pages missing frame-busting headers | Yes |
+| [APIBatchRequestLimitAudit](APIBatchRequestLimitAudit/) | Flags batch endpoints with no per-request operation cap | Yes |
+| [DataExportAuditTrailAudit](DataExportAuditTrailAudit/) | Flags data exports leaving no audit trail | Yes |
+| [BackupWriteOnceStorageAudit](BackupWriteOnceStorageAudit/) | Flags backups stored on mutable rather than WORM storage | Yes |
+| [ServiceMeshZoneAffinityAudit](ServiceMeshZoneAffinityAudit/) | Flags mesh routing that ignores availability-zone locality | Yes |
+| [SearchQueryPIIRedactionAudit](SearchQueryPIIRedactionAudit/) | Flags query logging that stores raw queries without PII redaction | Yes |
+| [FeatureFlagTargetingLeakAudit](FeatureFlagTargetingLeakAudit/) | Flags targeting rules exposing internal segment names to clients | Yes |
+| [LLMSystemPromptLeakAudit](LLMSystemPromptLeakAudit/) | Flags LLM apps where the system prompt can be extracted | Yes |
+| [TokenScopeEscalationAudit](TokenScopeEscalationAudit/) | Flags issuance flows allowing scope escalation beyond registration | Yes |
+| [NetworkVPNSplitTunnelAudit](NetworkVPNSplitTunnelAudit/) | Flags split-tunnel VPNs routing corporate traffic outside the tunnel | Yes |
+| [DatabaseSchemaMigrationLockAudit](DatabaseSchemaMigrationLockAudit/) | Flags migrations taking exclusive locks on large tables | Yes |
+| [APIClientCertRotationAudit](APIClientCertRotationAudit/) | Flags mTLS client certs nearing expiry with no auto-renewal | Yes |
+| [CloudFunctionColdPathAudit](CloudFunctionColdPathAudit/) | Flags untested error paths with zero production invocations | Yes |
 
 ## Getting started
 
