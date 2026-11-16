@@ -527,6 +527,27 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DatabaseSchemaMigrationLockAudit](DatabaseSchemaMigrationLockAudit/) | Flags migrations taking exclusive locks on large tables | Yes |
 | [APIClientCertRotationAudit](APIClientCertRotationAudit/) | Flags mTLS client certs nearing expiry with no auto-renewal | Yes |
 | [CloudFunctionColdPathAudit](CloudFunctionColdPathAudit/) | Flags untested error paths with zero production invocations | Yes |
+| [APIGatewayAuthBypassAudit](APIGatewayAuthBypassAudit/) | Flags routes where services bypass gateway authentication | Yes |
+| [CloudLoadBalancerTLSVersionAudit](CloudLoadBalancerTLSVersionAudit/) | Flags load balancers permitting deprecated TLS versions | Yes |
+| [ContainerImageProvenanceAudit](ContainerImageProvenanceAudit/) | Flags images with no verifiable build provenance attestation | Yes |
+| [DatabaseVacuumSchedulingAudit](DatabaseVacuumSchedulingAudit/) | Flags tables with autovacuum disabled or badly tuned | Yes |
+| [KubernetesHorizontalAutoscalerThrashAudit](KubernetesHorizontalAutoscalerThrashAudit/) | Flags HPAs with scaling thresholds causing thrashing | Yes |
+| [MobileAppDeepLinkValidationAudit](MobileAppDeepLinkValidationAudit/) | Flags apps handling deep links without origin validation | Yes |
+| [ServerlessDeadLetterQueueAudit](ServerlessDeadLetterQueueAudit/) | Flags async functions with no dead-letter queue | Yes |
+| [WebAppFormAutocompleteAudit](WebAppFormAutocompleteAudit/) | Flags forms allowing autocomplete on sensitive fields | Yes |
+| [APISortParameterInjectionAudit](APISortParameterInjectionAudit/) | Flags endpoints passing client sort params into ORDER BY | Yes |
+| [DataRetentionPolicyEnforcementAudit](DataRetentionPolicyEnforcementAudit/) | Flags retention policies not enforced by automated deletion | Yes |
+| [BackupRecoveryTimeObjectiveAudit](BackupRecoveryTimeObjectiveAudit/) | Flags restores whose measured time exceeds the RTO | Yes |
+| [ServiceMeshHeaderPropagationAudit](ServiceMeshHeaderPropagationAudit/) | Flags services failing to propagate tracing headers | Yes |
+| [SearchQueryRateLimitAudit](SearchQueryRateLimitAudit/) | Flags search endpoints with no per-client rate limiting | Yes |
+| [FeatureFlagDefaultValueAudit](FeatureFlagDefaultValueAudit/) | Flags flags whose outage fallback differs from the safe default | Yes |
+| [LLMOutputSchemaDriftAudit](LLMOutputSchemaDriftAudit/) | Flags LLM output drifting from expected schema undetected | Yes |
+| [TokenIntrospectionCachingAudit](TokenIntrospectionCachingAudit/) | Flags introspection caches outliving the token's own TTL | Yes |
+| [NetworkPortScanDetectionAudit](NetworkPortScanDetectionAudit/) | Flags networks with no port-scan detection enabled | Yes |
+| [DatabaseConnectionPoolExhaustionAudit](DatabaseConnectionPoolExhaustionAudit/) | Flags connection pools near exhaustion with no backpressure | Yes |
+| [APIWebhookSignatureAudit](APIWebhookSignatureAudit/) | Flags outbound webhooks delivered without a signature | Yes |
+| [CloudResourceTaggingAudit](CloudResourceTaggingAudit/) | Flags resources missing required ownership/cost-center tags | Yes |
+| [ContainerImageSizeAudit](ContainerImageSizeAudit/) | Flags images exceeding a recommended size budget | Yes |
 
 ## Getting started
 
