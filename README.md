@@ -548,6 +548,23 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [APIWebhookSignatureAudit](APIWebhookSignatureAudit/) | Flags outbound webhooks delivered without a signature | Yes |
 | [CloudResourceTaggingAudit](CloudResourceTaggingAudit/) | Flags resources missing required ownership/cost-center tags | Yes |
 | [ContainerImageSizeAudit](ContainerImageSizeAudit/) | Flags images exceeding a recommended size budget | Yes |
+| [APIFieldLevelAuthorizationAudit](APIFieldLevelAuthorizationAudit/) | Flags endpoints lacking field-level authorization checks | Yes |
+| [CloudKMSGrantExpiryAudit](CloudKMSGrantExpiryAudit/) | Flags KMS grants with no expiry, leaving indefinite access | Yes |
+| [ContainerLivenessProbeMisconfigAudit](ContainerLivenessProbeMisconfigAudit/) | Flags liveness probes that restart on transient slowness | Yes |
+| [DatabaseReadAfterWriteConsistencyAudit](DatabaseReadAfterWriteConsistencyAudit/) | Flags replica reads after writes with no consistency guarantee | Yes |
+| [KubernetesServiceAccountTokenMountAudit](KubernetesServiceAccountTokenMountAudit/) | Flags pods auto-mounting unused service account tokens | Yes |
+| [MobileAppOTAUpdateIntegrityAudit](MobileAppOTAUpdateIntegrityAudit/) | Flags OTA updates applied without signature verification | Yes |
+| [ServerlessLayerVersionPinningAudit](ServerlessLayerVersionPinningAudit/) | Flags functions referencing layers by mutable alias | Yes |
+| [WebAppReferrerPolicyAudit](WebAppReferrerPolicyAudit/) | Flags pages with no Referrer-Policy header | Yes |
+| [APIErrorMessageInformationLeakAudit](APIErrorMessageInformationLeakAudit/) | Flags endpoints returning raw stack traces to clients | Yes |
+| [DataAnonymizationReversibilityAudit](DataAnonymizationReversibilityAudit/) | Flags anonymization methods vulnerable to re-identification | Yes |
+| [BackupStorageAccessKeyRotationAudit](BackupStorageAccessKeyRotationAudit/) | Flags static backup storage keys overdue for rotation | Yes |
+| [ServiceMeshFaultInjectionTestAudit](ServiceMeshFaultInjectionTestAudit/) | Flags critical services never fault-injection tested | Yes |
+| [SearchIndexAccessControlAudit](SearchIndexAccessControlAudit/) | Flags multi-tenant indexes with no document-level filtering | Yes |
+| [FeatureFlagMultiTenantIsolationAudit](FeatureFlagMultiTenantIsolationAudit/) | Flags per-tenant flags evaluated globally | Yes |
+| [LLMFunctionCallingPrivilegeAudit](LLMFunctionCallingPrivilegeAudit/) | Flags agents with tool access beyond their task's needs | Yes |
+| [TokenBindingDeviceMismatchAudit](TokenBindingDeviceMismatchAudit/) | Flags tokens used from a device different from where issued | Yes |
+| [NetworkAnycastFailoverAudit](NetworkAnycastFailoverAudit/) | Flags anycast services with no verified failover path | Yes |
 
 ## Getting started
 
