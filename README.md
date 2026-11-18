@@ -565,6 +565,25 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [LLMFunctionCallingPrivilegeAudit](LLMFunctionCallingPrivilegeAudit/) | Flags agents with tool access beyond their task's needs | Yes |
 | [TokenBindingDeviceMismatchAudit](TokenBindingDeviceMismatchAudit/) | Flags tokens used from a device different from where issued | Yes |
 | [NetworkAnycastFailoverAudit](NetworkAnycastFailoverAudit/) | Flags anycast services with no verified failover path | Yes |
+| [APIConditionalRequestAudit](APIConditionalRequestAudit/) | Flags endpoints lacking ETag conditional request support | Yes |
+| [CloudNATGatewayScalingAudit](CloudNATGatewayScalingAudit/) | Flags NAT gateways nearing port-allocation exhaustion | Yes |
+| [ContainerSBOMFreshnessAudit](ContainerSBOMFreshnessAudit/) | Flags images with a stale or missing SBOM | Yes |
+| [DatabaseStatisticsStalenessAudit](DatabaseStatisticsStalenessAudit/) | Flags tables with stale query-planner statistics | Yes |
+| [KubernetesCRDVersionSkewAudit](KubernetesCRDVersionSkewAudit/) | Flags deprecated CRD versions with no conversion webhook | Yes |
+| [MobileAppBackgroundRefreshLeakAudit](MobileAppBackgroundRefreshLeakAudit/) | Flags background refresh continuing after logout | Yes |
+| [ServerlessProvisionedConcurrencyWasteAudit](ServerlessProvisionedConcurrencyWasteAudit/) | Flags provisioned concurrency far above peak usage | Yes |
+| [WebAppCORSWildcardAudit](WebAppCORSWildcardAudit/) | Flags wildcard CORS origin combined with credentials | Yes |
+| [APIGraphQLBatchingAbuseAudit](APIGraphQLBatchingAbuseAudit/) | Flags GraphQL endpoints with unbounded query batching | Yes |
+| [DataShareExternalPartyAudit](DataShareExternalPartyAudit/) | Flags external data shares with no signed DPA | Yes |
+| [BackupTestRestoreAutomationAudit](BackupTestRestoreAutomationAudit/) | Flags backups relying on manual rather than automated restore tests | Yes |
+| [ServiceMeshCanaryRollbackAudit](ServiceMeshCanaryRollbackAudit/) | Flags canary deployments with no automated rollback trigger | Yes |
+| [SearchTypoToleranceAbuseAudit](SearchTypoToleranceAbuseAudit/) | Flags fuzzy search that can enumerate restricted terms | Yes |
+| [FeatureFlagApprovalWorkflowAudit](FeatureFlagApprovalWorkflowAudit/) | Flags high-risk flags togglable without approval | Yes |
+| [LLMEmbeddingPoisoningAudit](LLMEmbeddingPoisoningAudit/) | Flags RAG pipelines indexing unmoderated user content | Yes |
+| [TokenRefreshRaceConditionAudit](TokenRefreshRaceConditionAudit/) | Flags concurrent requests racing independent token refreshes | Yes |
+| [NetworkQoSPrioritizationAudit](NetworkQoSPrioritizationAudit/) | Flags mixed traffic with no QoS prioritization | Yes |
+| [DatabaseShardRebalancingAudit](DatabaseShardRebalancingAudit/) | Flags sharded clusters with skew and no auto-rebalancing | Yes |
+| [APIRequestCollapsingAudit](APIRequestCollapsingAudit/) | Flags expensive endpoints with no request collapsing | Yes |
 
 ## Getting started
 
