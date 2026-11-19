@@ -584,6 +584,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [NetworkQoSPrioritizationAudit](NetworkQoSPrioritizationAudit/) | Flags mixed traffic with no QoS prioritization | Yes |
 | [DatabaseShardRebalancingAudit](DatabaseShardRebalancingAudit/) | Flags sharded clusters with skew and no auto-rebalancing | Yes |
 | [APIRequestCollapsingAudit](APIRequestCollapsingAudit/) | Flags expensive endpoints with no request collapsing | Yes |
+| [APIDeprecatedCipherSuiteAudit](APIDeprecatedCipherSuiteAudit/) | Flags endpoints negotiating deprecated TLS cipher suites | Yes |
+| [CloudVPCPeeringTransitAudit](CloudVPCPeeringTransitAudit/) | Flags VPC peering allowing unreviewed transitive routing | Yes |
+| [ContainerInitContainerFailureAudit](ContainerInitContainerFailureAudit/) | Flags init container failures that don't block the main container | Yes |
+| [DatabaseSerialColumnWraparoundAudit](DatabaseSerialColumnWraparoundAudit/) | Flags serial columns nearing their integer type's max value | Yes |
+| [KubernetesResourceQuotaBypassAudit](KubernetesResourceQuotaBypassAudit/) | Flags ResourceQuotas bypassable via missing pod requests | Yes |
+| [MobileAppSSLPinningBypassAudit](MobileAppSSLPinningBypassAudit/) | Flags cert pinning that only checks the leaf certificate | Yes |
+| [ServerlessEnvironmentVariableSecretAudit](ServerlessEnvironmentVariableSecretAudit/) | Flags secrets stored as plaintext environment variables | Yes |
+| [WebAppMixedContentAudit](WebAppMixedContentAudit/) | Flags HTTPS pages loading active content over HTTP | Yes |
+| [APIQueryParamInjectionAudit](APIQueryParamInjectionAudit/) | Flags query params interpolated into shell commands or paths | Yes |
+| [DataLineageProvenanceGapAudit](DataLineageProvenanceGapAudit/) | Flags derived datasets with no recorded lineage | Yes |
+| [BackupSnapshotLifecycleAudit](BackupSnapshotLifecycleAudit/) | Flags snapshots with no lifecycle policy to expire old copies | Yes |
+| [ServiceMeshJWTValidationAudit](ServiceMeshJWTValidationAudit/) | Flags JWT validation that doesn't pin an expected issuer | Yes |
+| [SearchResultCacheStalenessAudit](SearchResultCacheStalenessAudit/) | Flags cache TTLs longer than the index update interval | Yes |
+| [FeatureFlagRolloutVelocityAudit](FeatureFlagRolloutVelocityAudit/) | Flags rollouts jumping straight to 100% without staged steps | Yes |
+| [LLMRetrievalChunkLeakageAudit](LLMRetrievalChunkLeakageAudit/) | Flags RAG retrieval that can leak unauthorized document chunks | Yes |
+| [TokenClockSkewToleranceAudit](TokenClockSkewToleranceAudit/) | Flags validators with clock skew tolerance set too loosely | Yes |
+| [NetworkLoadBalancerStickySessionAudit](NetworkLoadBalancerStickySessionAudit/) | Flags sticky sessions keyed on a predictable cookie value | Yes |
+| [DatabaseTriggerCascadeAudit](DatabaseTriggerCascadeAudit/) | Flags triggers that can cascade with no depth limit | Yes |
+| [APIContentNegotiationFallbackAudit](APIContentNegotiationFallbackAudit/) | Flags endpoints silently falling back on unrecognized Accept headers | Yes |
+| [CloudBillingAlertCoverageAudit](CloudBillingAlertCoverageAudit/) | Flags cost centers with no billing anomaly alert coverage | Yes |
 
 ## Getting started
 
