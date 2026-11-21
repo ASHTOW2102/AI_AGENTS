@@ -604,6 +604,24 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [DatabaseTriggerCascadeAudit](DatabaseTriggerCascadeAudit/) | Flags triggers that can cascade with no depth limit | Yes |
 | [APIContentNegotiationFallbackAudit](APIContentNegotiationFallbackAudit/) | Flags endpoints silently falling back on unrecognized Accept headers | Yes |
 | [CloudBillingAlertCoverageAudit](CloudBillingAlertCoverageAudit/) | Flags cost centers with no billing anomaly alert coverage | Yes |
+| [APIMassAssignmentAudit](APIMassAssignmentAudit/) | Flags endpoints vulnerable to mass assignment of protected fields | Yes |
+| [CloudSecretsManagerAccessLogAudit](CloudSecretsManagerAccessLogAudit/) | Flags secrets with no access logging enabled | Yes |
+| [ContainerReadOnlyRootFilesystemAudit](ContainerReadOnlyRootFilesystemAudit/) | Flags containers with an unnecessarily writable root filesystem | Yes |
+| [DatabaseOrphanedForeignKeyAudit](DatabaseOrphanedForeignKeyAudit/) | Flags rows whose foreign key no longer resolves to a parent | Yes |
+| [KubernetesEphemeralStorageQuotaAudit](KubernetesEphemeralStorageQuotaAudit/) | Flags pods with no ephemeral storage limit | Yes |
+| [MobileAppInterProcessCommunicationAudit](MobileAppInterProcessCommunicationAudit/) | Flags exported components with no IPC permission checks | Yes |
+| [ServerlessAPIGatewayThrottlingAudit](ServerlessAPIGatewayThrottlingAudit/) | Flags gateway routes with no throttling in front of functions | Yes |
+| [WebAppSessionFixationAudit](WebAppSessionFixationAudit/) | Flags apps that don't rotate session IDs on login | Yes |
+| [APIResourceExhaustionAudit](APIResourceExhaustionAudit/) | Flags endpoints accepting unbounded array/nested input sizes | Yes |
+| [DataCatalogSensitivityLabelAudit](DataCatalogSensitivityLabelAudit/) | Flags sensitive assets with no sensitivity label applied | Yes |
+| [BackupMultiRegionConsistencyAudit](BackupMultiRegionConsistencyAudit/) | Flags multi-region backup copies with diverged checksums | Yes |
+| [ServiceMeshRateLimitPropagationAudit](ServiceMeshRateLimitPropagationAudit/) | Flags edge rate limits not propagated to internal callers | Yes |
+| [SearchQueryCostBudgetAudit](SearchQueryCostBudgetAudit/) | Flags queries with no estimated-cost cutoff | Yes |
+| [FeatureFlagTelemetryGapAudit](FeatureFlagTelemetryGapAudit/) | Flags flags with no telemetry tied to their variants | Yes |
+| [LLMAgentLoopDetectionAudit](LLMAgentLoopDetectionAudit/) | Flags agents with no detection for repeating actions in a loop | Yes |
+| [TokenStorageClientSideAudit](TokenStorageClientSideAudit/) | Flags auth tokens stored in localStorage instead of HttpOnly cookies | Yes |
+| [NetworkFirewallRuleShadowingAudit](NetworkFirewallRuleShadowingAudit/) | Flags firewall rules shadowed by an earlier broader rule | Yes |
+| [DatabasePreparedStatementCacheAudit](DatabasePreparedStatementCacheAudit/) | Flags connection pools with prepared statement caching disabled | Yes |
 
 ## Getting started
 
