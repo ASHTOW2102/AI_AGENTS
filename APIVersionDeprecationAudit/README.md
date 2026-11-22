@@ -1,6 +1,10 @@
 # APIVersionDeprecationAudit
 
-Audits deprecated API versions still receiving traffic without a sunset notice to clients.
+Flags API endpoints still serving a deprecated version with no sunset header or migration deadline communicated to clients, risking an abrupt breaking removal.
+
+## What it checks
+
+Checks deprecated API endpoints for Sunset header and communicated sunset date to avoid abrupt breaking removals.
 
 ## Usage
 
@@ -8,6 +12,12 @@ Audits deprecated API versions still receiving traffic without a sunset notice t
 from agent import audit
 
 findings = audit({...})
+for f in findings:
+    print(f["severity"], f["issue"])
 ```
 
-Each finding is a dict with `severity` and `issue` keys.
+## Running tests
+
+```bash
+python -m unittest discover -s tests
+```
