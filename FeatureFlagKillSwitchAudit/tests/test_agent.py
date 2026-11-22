@@ -4,8 +4,8 @@ from agent import audit
 
 class FeatureFlagKillSwitchAuditTests(unittest.TestCase):
 
-    def test_untested(self):
-        self.assertTrue(audit({"risk_level": "high", "kill_switch_tested": False}))
+    def test_critical_no_kill_switch(self):
+        self.assertTrue(audit({"is_critical_path": True, "has_remote_kill_switch": False}))
 
     def test_ok(self):
-        self.assertFalse(audit({"risk_level": "high", "kill_switch_tested": True, "rollback_time_seconds": 10, "max_acceptable_rollback_seconds": 60}))
+        self.assertFalse(audit({"is_critical_path": True, "has_remote_kill_switch": True, "kill_switch_requires_restart": False}))

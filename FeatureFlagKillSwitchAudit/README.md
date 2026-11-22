@@ -1,6 +1,10 @@
 # FeatureFlagKillSwitchAudit
 
-Checks that risky feature flags have a verified kill switch path for rapid rollback.
+Flags critical features gated behind a feature flag with no remotely-toggleable kill switch, forcing a full deploy to disable a feature that is misbehaving in production.
+
+## What it checks
+
+Checks critical-path feature flags for a remotely-toggleable kill switch that doesn't require a redeploy or restart.
 
 ## Usage
 
@@ -8,6 +12,12 @@ Checks that risky feature flags have a verified kill switch path for rapid rollb
 from agent import audit
 
 findings = audit({...})
+for f in findings:
+    print(f["severity"], f["issue"])
 ```
 
-Each finding is a dict with `severity` and `issue` keys.
+## Running tests
+
+```bash
+python -m unittest discover -s tests
+```
