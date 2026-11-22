@@ -622,6 +622,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [TokenStorageClientSideAudit](TokenStorageClientSideAudit/) | Flags auth tokens stored in localStorage instead of HttpOnly cookies | Yes |
 | [NetworkFirewallRuleShadowingAudit](NetworkFirewallRuleShadowingAudit/) | Flags firewall rules shadowed by an earlier broader rule | Yes |
 | [DatabasePreparedStatementCacheAudit](DatabasePreparedStatementCacheAudit/) | Flags connection pools with prepared statement caching disabled | Yes |
+| [GraphQLDepthLimitAudit](GraphQLDepthLimitAudit/) | Flags GraphQL endpoints with no maximum query depth | Yes |
+| [CacheStampedeProtectionAudit](CacheStampedeProtectionAudit/) | Flags high-concurrency caches with no stampede protection | Yes |
+| [WebhookSignatureVerificationAudit](WebhookSignatureVerificationAudit/) | Flags webhook receivers that don't verify HMAC signatures | Yes |
+| [DataPipelineSchemaDriftAudit](DataPipelineSchemaDriftAudit/) | Flags pipeline stages with no input schema validation | Yes |
+| [EdgeFunctionColdStartAudit](EdgeFunctionColdStartAudit/) | Flags serverless functions with slow, unmitigated cold starts | Yes |
+| [MessageQueuePoisonMessageAudit](MessageQueuePoisonMessageAudit/) | Flags consumers with no DLQ or max-retry limit | Yes |
+| [CertificateTransparencyMonitoringAudit](CertificateTransparencyMonitoringAudit/) | Flags domains with no CT log monitoring or CAA record | Yes |
+| [DNSZoneTransferExposureAudit](DNSZoneTransferExposureAudit/) | Flags DNS servers allowing unrestricted zone transfer | Yes |
+| [ContainerImageProvenanceAudit](ContainerImageProvenanceAudit/) | Flags deployments that don't verify signed image provenance | Yes |
+| [APIVersionDeprecationAudit](APIVersionDeprecationAudit/) | Flags deprecated endpoints with no Sunset header or deadline | Yes |
+| [DatabaseReplicationLagAudit](DatabaseReplicationLagAudit/) | Flags read replicas with no replication-lag monitoring | Yes |
+| [LoadBalancerHealthCheckAudit](LoadBalancerHealthCheckAudit/) | Flags load balancers with shallow TCP-only health checks | Yes |
+| [ServiceAccountKeyRotationAudit](ServiceAccountKeyRotationAudit/) | Flags service account keys with no rotation policy | Yes |
+| [CDNCacheKeyInjectionAudit](CDNCacheKeyInjectionAudit/) | Flags CDN cache keys built from unvalidated headers/params | Yes |
+| [FeatureFlagKillSwitchAudit](FeatureFlagKillSwitchAudit/) | Flags critical features with no remote kill switch | Yes |
+| [SearchIndexStalenessAudit](SearchIndexStalenessAudit/) | Flags search indexes with no staleness monitoring or SLA | Yes |
+| [LogPIIRedactionAudit](LogPIIRedactionAudit/) | Flags loggers writing full payloads with no PII redaction | Yes |
+| [CrossRegionFailoverAudit](CrossRegionFailoverAudit/) | Flags multi-region services with no tested automated failover | Yes |
+| [BackgroundJobIdempotencyAudit](BackgroundJobIdempotencyAudit/) | Flags side-effecting jobs with no idempotency key | Yes |
+| [TLSCipherSuiteAudit](TLSCipherSuiteAudit/) | Flags TLS servers enabling weak ciphers or old protocols | Yes |
 
 ## Getting started
 
