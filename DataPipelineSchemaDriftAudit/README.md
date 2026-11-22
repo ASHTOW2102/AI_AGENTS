@@ -1,6 +1,10 @@
 # DataPipelineSchemaDriftAudit
 
-Flags data pipelines where upstream schema drift is not caught before downstream consumption.
+Flags data pipeline stages that consume upstream data without schema validation, allowing silent schema drift (renamed, removed, or retyped columns) to corrupt downstream data.
+
+## What it checks
+
+Checks data pipeline stages for input schema validation and fail-closed behavior on schema mismatch.
 
 ## Usage
 
@@ -8,6 +12,12 @@ Flags data pipelines where upstream schema drift is not caught before downstream
 from agent import audit
 
 findings = audit({...})
+for f in findings:
+    print(f["severity"], f["issue"])
 ```
 
-Each finding is a dict with `severity` and `issue` keys.
+## Running tests
+
+```bash
+python -m unittest discover -s tests
+```
