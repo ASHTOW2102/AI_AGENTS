@@ -642,6 +642,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [CrossRegionFailoverAudit](CrossRegionFailoverAudit/) | Flags multi-region services with no tested automated failover | Yes |
 | [BackgroundJobIdempotencyAudit](BackgroundJobIdempotencyAudit/) | Flags side-effecting jobs with no idempotency key | Yes |
 | [TLSCipherSuiteAudit](TLSCipherSuiteAudit/) | Flags TLS servers enabling weak ciphers or old protocols | Yes |
+| [GraphQLIntrospectionExposureAudit](GraphQLIntrospectionExposureAudit/) | Flags GraphQL schemas with introspection enabled in production | Yes |
+| [CICDArtifactSigningAudit](CICDArtifactSigningAudit/) | Flags CI/CD pipelines publishing unsigned artifacts publicly | Yes |
+| [DNSZoneTransferAudit](DNSZoneTransferAudit/) | Flags DNS servers allowing zone transfer from any host | Yes |
+| [WebhookRetryIdempotencyAudit](WebhookRetryIdempotencyAudit/) | Flags retry-capable webhooks with no idempotency key check | Yes |
+| [SecretRotationScheduleAudit](SecretRotationScheduleAudit/) | Flags secrets rotated less often than their own policy requires | Yes |
+| [APISunsetHeaderAudit](APISunsetHeaderAudit/) | Flags deprecated endpoints with no Sunset header | Yes |
+| [CloudIAMPrivilegeEscalationAudit](CloudIAMPrivilegeEscalationAudit/) | Flags IAM roles combining pass-role and policy-creation permissions | Yes |
+| [MessageQueueDeadLetterAudit](MessageQueueDeadLetterAudit/) | Flags message queues with no dead-letter queue configured | Yes |
+| [TLSCertificatePinningAudit](TLSCertificatePinningAudit/) | Flags sensitive mobile apps with no TLS certificate pinning | Yes |
+| [DataRetentionPolicyAudit](DataRetentionPolicyAudit/) | Flags PII datasets with no defined retention policy | Yes |
+| [ServerlessColdStartTimeoutAudit](ServerlessColdStartTimeoutAudit/) | Flags functions whose cold start eats most of the timeout budget | Yes |
+| [ContainerEntrypointPrivilegeAudit](ContainerEntrypointPrivilegeAudit/) | Flags container entrypoints running as root | Yes |
+| [OAuthRedirectURIValidationAudit](OAuthRedirectURIValidationAudit/) | Flags OAuth clients with wildcard or missing redirect URI checks | Yes |
+| [RateLimitBypassHeaderAudit](RateLimitBypassHeaderAudit/) | Flags gateways trusting client-supplied rate-limit headers | Yes |
+| [DatabaseCompositeIndexRedundancyAudit](DatabaseCompositeIndexRedundancyAudit/) | Flags composite indexes made redundant by a longer index | Yes |
+| [LogInjectionAudit](LogInjectionAudit/) | Flags loggers writing raw unsanitized request bodies | Yes |
+| [CSRFTokenReuseAudit](CSRFTokenReuseAudit/) | Flags endpoints with missing or session-unbound CSRF tokens | Yes |
+| [KubernetesPodSecurityContextAudit](KubernetesPodSecurityContextAudit/) | Flags pods allowing privilege escalation or running as root | Yes |
+| [CloudStorageLifecycleRuleAudit](CloudStorageLifecycleRuleAudit/) | Flags log-storing buckets with no lifecycle rule | Yes |
+| [APIPaginationLimitAudit](APIPaginationLimitAudit/) | Flags list endpoints with no or overly large max page size | Yes |
 
 ## Getting started
 
