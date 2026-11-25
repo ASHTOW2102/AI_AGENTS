@@ -662,6 +662,24 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [KubernetesPodSecurityContextAudit](KubernetesPodSecurityContextAudit/) | Flags pods allowing privilege escalation or running as root | Yes |
 | [CloudStorageLifecycleRuleAudit](CloudStorageLifecycleRuleAudit/) | Flags log-storing buckets with no lifecycle rule | Yes |
 | [APIPaginationLimitAudit](APIPaginationLimitAudit/) | Flags list endpoints with no or overly large max page size | Yes |
+| [APIKeyScopeOverprivilegeAudit](APIKeyScopeOverprivilegeAudit/) | Flags API keys granted scopes beyond the minimum required | Yes |
+| [CloudFunctionEnvVarSecretAudit](CloudFunctionEnvVarSecretAudit/) | Flags functions storing credential-shaped values in plaintext env vars | Yes |
+| [ServiceMeshMTLSEnforcementAudit](ServiceMeshMTLSEnforcementAudit/) | Flags service mesh mTLS policies set to permissive or disabled | Yes |
+| [DatabaseDeadlockRetryStormAudit](DatabaseDeadlockRetryStormAudit/) | Flags deadlock retries configured with no backoff | Yes |
+| [WebAppOpenRedirectAudit](WebAppOpenRedirectAudit/) | Flags redirect endpoints with no target URL validation | Yes |
+| [APIBulkDeleteConfirmationAudit](APIBulkDeleteConfirmationAudit/) | Flags bulk-delete endpoints with no confirmation token | Yes |
+| [ContainerSecretsMountAudit](ContainerSecretsMountAudit/) | Flags containers injecting secrets as env vars instead of files | Yes |
+| [DNSWildcardRecordAudit](DNSWildcardRecordAudit/) | Flags wildcard DNS records with an unverified target | Yes |
+| [LoadBalancerSSLTerminationAudit](LoadBalancerSSLTerminationAudit/) | Flags load balancers forwarding unencrypted backend traffic | Yes |
+| [EventSourcingSnapshotDriftAudit](EventSourcingSnapshotDriftAudit/) | Flags event-sourced snapshots that predate the current schema | Yes |
+| [FeatureFlagDependencyCycleAudit](FeatureFlagDependencyCycleAudit/) | Flags feature flag dependency graphs containing a cycle | Yes |
+| [GitLFSQuotaAudit](GitLFSQuotaAudit/) | Flags Git LFS usage approaching its storage quota | Yes |
+| [KubernetesResourceLimitAudit](KubernetesResourceLimitAudit/) | Flags containers with no CPU or memory limit set | Yes |
+| [MobileAppRootDetectionBypassAudit](MobileAppRootDetectionBypassAudit/) | Flags missing or trivially bypassable root/jailbreak detection | Yes |
+| [OAuthScopeCreepAudit](OAuthScopeCreepAudit/) | Flags OAuth clients requesting scopes they never use | Yes |
+| [QueueMessageVisibilityTimeoutAudit](QueueMessageVisibilityTimeoutAudit/) | Flags visibility timeouts shorter than actual processing time | Yes |
+| [SearchIndexFieldLeakageAudit](SearchIndexFieldLeakageAudit/) | Flags PII fields included among indexed/searchable fields | Yes |
+| [StorageBucketPublicACLAudit](StorageBucketPublicACLAudit/) | Flags storage buckets with a public-read ACL | Yes |
 
 ## Getting started
 
