@@ -680,6 +680,26 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [QueueMessageVisibilityTimeoutAudit](QueueMessageVisibilityTimeoutAudit/) | Flags visibility timeouts shorter than actual processing time | Yes |
 | [SearchIndexFieldLeakageAudit](SearchIndexFieldLeakageAudit/) | Flags PII fields included among indexed/searchable fields | Yes |
 | [StorageBucketPublicACLAudit](StorageBucketPublicACLAudit/) | Flags storage buckets with a public-read ACL | Yes |
+| [APISchemaVersioningAudit](APISchemaVersioningAudit/) | Flags breaking API changes shipped without a version bump | Yes |
+| [CloudCDNOriginExposureAudit](CloudCDNOriginExposureAudit/) | Flags CDN origins that remain directly publicly reachable | Yes |
+| [DatabaseTransactionIsolationAudit](DatabaseTransactionIsolationAudit/) | Flags transactions needing serializable isolation that run weaker | Yes |
+| [ServerlessFunctionConcurrencyLimitAudit](ServerlessFunctionConcurrencyLimitAudit/) | Flags concurrency exceeding a downstream connection limit | Yes |
+| [ContainerRegistryVulnerabilityScanAudit](ContainerRegistryVulnerabilityScanAudit/) | Flags registries with no scan-on-push or no deploy blocking | Yes |
+| [KubernetesSecretEncryptionAtRestAudit](KubernetesSecretEncryptionAtRestAudit/) | Flags clusters storing Secrets in etcd without encryption at rest | Yes |
+| [MessageBrokerACLAudit](MessageBrokerACLAudit/) | Flags brokers whose default ACL allows any client access | Yes |
+| [APIHTTPPipeliningDesyncAudit](APIHTTPPipeliningDesyncAudit/) | Flags frontend/backend chunked-parsing mismatches enabling desync | Yes |
+| [DNSCAARecordAudit](DNSCAARecordAudit/) | Flags domains with no CAA record restricting issuing CAs | Yes |
+| [OAuthClientSecretRotationAudit](OAuthClientSecretRotationAudit/) | Flags OAuth client secrets rotated less often than policy requires | Yes |
+| [WebAppCDNScriptIntegrityAudit](WebAppCDNScriptIntegrityAudit/) | Flags third-party scripts loaded with no Subresource Integrity hash | Yes |
+| [CloudKMSKeyUsageAudit](CloudKMSKeyUsageAudit/) | Flags KMS keys granting decrypt permission to any principal | Yes |
+| [DatabaseBackupEncryptionAudit](DatabaseBackupEncryptionAudit/) | Flags database backups not encrypted at rest | Yes |
+| [LoadBalancerStickySessionAudit](LoadBalancerStickySessionAudit/) | Flags sticky sessions with an unencrypted session cookie | Yes |
+| [GitBranchProtectionAudit](GitBranchProtectionAudit/) | Flags default branches allowing force push or skipping PR review | Yes |
+| [FeatureFlagAuditLogAudit](FeatureFlagAuditLogAudit/) | Flags feature flag systems with no change audit log | Yes |
+| [SearchQueryInjectionAudit](SearchQueryInjectionAudit/) | Flags search queries built via raw string concatenation | Yes |
+| [MobileAppUniversalLinkValidationAudit](MobileAppUniversalLinkValidationAudit/) | Flags apps not validating the signing team ID on universal links | Yes |
+| [ServiceMeshCircuitBreakerAudit](ServiceMeshCircuitBreakerAudit/) | Flags mesh routes with no circuit breaker configured | Yes |
+| [CloudSnapshotPublicShareAudit](CloudSnapshotPublicShareAudit/) | Flags disk/database snapshots shared publicly | Yes |
 
 ## Getting started
 
