@@ -700,6 +700,32 @@ A growing collection of practical, self-contained AI agents built with Python.
 | [MobileAppUniversalLinkValidationAudit](MobileAppUniversalLinkValidationAudit/) | Flags apps not validating the signing team ID on universal links | Yes |
 | [ServiceMeshCircuitBreakerAudit](ServiceMeshCircuitBreakerAudit/) | Flags mesh routes with no circuit breaker configured | Yes |
 | [CloudSnapshotPublicShareAudit](CloudSnapshotPublicShareAudit/) | Flags disk/database snapshots shared publicly | Yes |
+| [APIRequestSizeLimitAudit](APIRequestSizeLimitAudit/) | Flags endpoints enforcing no maximum request body size | Yes |
+| [CloudAutoScalingPolicyAudit](CloudAutoScalingPolicyAudit/) | Flags auto scaling groups with no real scaling range | Yes |
+| [DatabaseForeignKeyCascadeAudit](DatabaseForeignKeyCascadeAudit/) | Flags CASCADE deletes pointing at financial/audit data | Yes |
+| [WebAppContentSecurityPolicyAudit](WebAppContentSecurityPolicyAudit/) | Flags missing CSP headers or ones allowing unsafe-inline | Yes |
+| [ServerlessIAMRoleScopeAudit](ServerlessIAMRoleScopeAudit/) | Flags function roles granting access to a wildcard resource | Yes |
+| [ContainerImageTagMutabilityAudit](ContainerImageTagMutabilityAudit/) | Flags mutable 'latest' tags in production or no tag immutability | Yes |
+| [KubernetesAdmissionControllerAudit](KubernetesAdmissionControllerAudit/) | Flags clusters with no pod security admission control | Yes |
+| [MessageQueueFIFOOrderingAudit](MessageQueueFIFOOrderingAudit/) | Flags order-dependent workloads on a non-FIFO queue | Yes |
+| [TLSSessionResumptionAudit](TLSSessionResumptionAudit/) | Flags session resumption with no ticket key rotation | Yes |
+| [DataMaskingConsistencyAudit](DataMaskingConsistencyAudit/) | Flags non-deterministic masking breaking cross-table joins | Yes |
+| [GitCommitSigningAudit](GitCommitSigningAudit/) | Flags repositories that do not require signed commits | Yes |
+| [SearchSynonymExpansionAudit](SearchSynonymExpansionAudit/) | Flags synonym lists stale past their review interval | Yes |
+| [MobileAppClipboardAccessAudit](MobileAppClipboardAccessAudit/) | Flags sensitive data copied to clipboard with no auto-clear | Yes |
+| [OAuthPKCEEnforcementAudit](OAuthPKCEEnforcementAudit/) | Flags public OAuth clients that do not enforce PKCE | Yes |
+| [CloudBillingAlertThresholdAudit](CloudBillingAlertThresholdAudit/) | Flags accounts with no budget alert configured | Yes |
+| [DatabaseReadReplicaLagThresholdAudit](DatabaseReadReplicaLagThresholdAudit/) | Flags replica lag exceeding the app's acceptable staleness | Yes |
+| [APIErrorMessageLeakageAudit](APIErrorMessageLeakageAudit/) | Flags endpoints exposing raw stack traces in error responses | Yes |
+| [FeatureFlagRolloutPercentageAudit](FeatureFlagRolloutPercentageAudit/) | Flags partial rollouts with no kill switch | Yes |
+| [ServiceMeshRequestTimeoutPropagationAudit](ServiceMeshRequestTimeoutPropagationAudit/) | Flags callee timeouts not shorter than the caller's | Yes |
+| [WebAppHSTSPreloadAudit](WebAppHSTSPreloadAudit/) | Flags missing HSTS or max-age shorter than one year | Yes |
+| [ContainerHealthCheckLivenessAudit](ContainerHealthCheckLivenessAudit/) | Flags containers with no liveness or readiness probe | Yes |
+| [CloudObjectLockRetentionAudit](CloudObjectLockRetentionAudit/) | Flags compliance-record buckets with no object lock | Yes |
+| [DNSDanglingRecordAudit](DNSDanglingRecordAudit/) | Flags DNS records pointing at a deprovisioned resource | Yes |
+| [LoadBalancerCrossZoneAudit](LoadBalancerCrossZoneAudit/) | Flags multi-zone targets with cross-zone balancing disabled | Yes |
+| [SecretsManagerVersionPruningAudit](SecretsManagerVersionPruningAudit/) | Flags secrets retaining far more old versions than configured | Yes |
+| [APIWebhookOutboundSSRFAudit](APIWebhookOutboundSSRFAudit/) | Flags outbound webhooks allowing unvalidated internal IP targets | Yes |
 
 ## Getting started
 
